@@ -25,12 +25,13 @@ def verify_hcp(npi_number):
         }
     
     name = npi_result["name"]
+    aliases = npi_result.get("aliases", [])
     print(f"✅ Identity verified: {name} ({npi_result['credential']})")
     
     # Step 2 — OIG Check
     print("Step 2: Checking OIG exclusion list...")
     oig_list = download_oig_list()
-    oig_result = check_oig(name, oig_list)
+    oig_result = check_oig(name, oig_list, aliases=aliases)
     
     if oig_result["status"] == "clear":
         print(f"✅ OIG: Clear")
@@ -42,7 +43,7 @@ def verify_hcp(npi_number):
     # Step 3 — SAM Check
     print("Step 3: Checking SAM.gov exclusion list...")
     sam_list = download_sam_list()
-    sam_result = check_sam(name, sam_list)
+    sam_result = check_sam(name, sam_list, aliases=aliases)
     
     if sam_result["status"] == "clear":
         print(f"✅ SAM: Clear")
