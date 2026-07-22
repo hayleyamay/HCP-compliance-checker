@@ -16,41 +16,39 @@ def download_oig_list():
         print(f"Error downloading OIG list: {e}")
         return []
 
-def check_oig(name, oig_list):
+def check_oig(name, oig_list, aliases=None):
     if not oig_list:
         return {
             "status": "error",
             "message": "OIG list unavailable"
         }
     
-    name_parts = name.upper().split()
-    if len(name_parts) < 2:
-        return {
-            "status": "error",
-            "message": "Invalid name provided"
-        }
-    
-    first_name = name_parts[0]
-    last_name = name_parts[-1]
+    all_names = [name]
+    if aliases:
+        all_names.extend(aliases)
     
     best_match = None
     best_score = 0
+    best_name_searched = name
     
-    for entry in oig_list:
-        entry_first = entry.get("FIRSTNAME", "").upper()
-        entry_last = entry.get("LASTNAME", "").upper()
-        entry_full = f"{entry_first} {entry_last}"
-        
-        score = fuzz.token_sort_ratio(name.upper(), entry_full)
-        
-        if score > best_score:
-            best_score = score
-            best_match = entry
-    
+    for search_name in all_names:
+        for entry in oig_list:
+            entry_first = entry.get("FIRSTNAME", "").upper()
+            entry_last = entry.get("LASTNAME", "").upper()
+            entry_full = f"{entry_first} {entry_last}"
+            
+            score = fuzz.token_sort_ratio(search_name.upper(), entry_full)
+            
+            if score > best_score:
+                best_score = score
+                best_match = entry
+                best_name_searched = search_name
+
     if best_score >= 95:
         return {
             "status": "flagged",
             "message": f"High confidence match found on OIG exclusion list",
+            "name_searched": best_name_searched,
             "match_score": best_score,
             "matched_entry": {
                 "name": f"{best_match.get('FIRSTNAME', '')} {best_match.get('LASTNAME', '')}",
@@ -63,6 +61,7 @@ def check_oig(name, oig_list):
         return {
             "status": "review",
             "message": f"Possible match found on OIG exclusion list — human review required",
+            "name_searched": best_name_searched,
             "match_score": best_score,
             "matched_entry": {
                 "name": f"{best_match.get('FIRSTNAME', '')} {best_match.get('LASTNAME', '')}",
@@ -75,6 +74,7 @@ def check_oig(name, oig_list):
         return {
             "status": "clear",
             "message": "No match found on OIG exclusion list",
+            "names_searched": all_names,
             "match_score": best_score
         }
 
