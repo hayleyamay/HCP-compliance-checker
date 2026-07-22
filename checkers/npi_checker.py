@@ -28,10 +28,17 @@ def check_npi(npi_number):
     primary_taxonomy = next((t for t in taxonomies if t.get("primary")), taxonomies[0])
     primary_address = next((a for a in addresses if a.get("address_purpose") == "LOCATION"), addresses[0])
     
+    other_names = provider.get("other_names", [])
+    aliases = [
+        f"{n.get('first_name', '')} {n.get('last_name', '')}".strip()
+        for n in other_names
+    ]
+    
     return {
         "status": "verified",
         "npi": npi_number,
         "name": f"{basic.get('first_name', '')} {basic.get('last_name', '')}".strip(),
+        "aliases": aliases,
         "credential": basic.get("credential", ""),
         "specialty": primary_taxonomy.get("desc", ""),
         "license_number": primary_taxonomy.get("license", ""),
