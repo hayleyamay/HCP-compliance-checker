@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HCP Compliance Checker</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+            background: #f5f5f5;
+            color: #333;
+        }
+        h1 {
+            font-size: 1.8em;
+            margin-bottom: 5px;
+        }
+        p.subtitle {
+            color: #666;
+            margin-bottom: 30px;
+        }
+        .search-box {
+            background: white;
+            border-radius: 8px;
+            padding: 24px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+            margin-bottom: 24px;
+        }
+        label {
+            display: block;
+            font-weight: bold;
+            margin-bottom: 8px;
+        }
+        input {
+            width: 100%;
+            padding: 10px;
+            font-size: 1em;
+            border: 1px solid #ddd;
+            border-radius: 6px;
+            box-sizing: border-box;
+            margin-bottom: 12px;
+        }
+        button {
+            padding: 10px 24px;
+            background: #2563eb;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            font-size: 1em;
+            cursor: pointer;
+        }
+        button:disabled {
+            background: #93c5fd;
+            cursor: not-allowed;
+        }
+        .status-badge {
+            display: inline-block;
+            padding: 6px 16px;
+            border-radius: 20px;
+            font-weight: bold;
+            font-size: 0.9em;
+            margin-bottom: 16px;
+        }
+        .CLEARED { background: #dcfce7; color: #166534; }
+        .REVIEW { background: #fef9c3; color: #854d0e; }
+        .DONOTENGAGE { background: #fee2e2; color: #991b1b; }
+        .UNVERIFIED { background: #f3f4f6; color: #374151; }
+        .result-card {
+            background: white;
+            border-radius: 8px;
+            padding: 24px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+            margin-bottom: 16px;
+        }
+        .result-card h2 {
+            margin: 0 0 16px 0;
+            font-size: 1.2em;
+        }
+        .detail-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 12px;
+            margin-bottom: 16px;
+        }
+        .detail-item label {
+            font-size: 0.8em;
+            color: #666;
+            margin-bottom: 2px;
+        }
+        .detail-item p {
+            margin: 0;
+            font-weight: 500;
+        }
+        .summary-box {
+            background: #f8fafc;
+            border-left: 4px solid #2563eb;
+            padding: 16px;
+            border-radius: 0 6px 6px 0;
+            margin-bottom: 16px;
+            font-size: 0.95em;
+            line-height: 1.6;
+        }
+        .check-row {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            padding: 8px 0;
+            border-bottom: 1px solid #f0f0f0;
+            font-size: 0.9em;
+        }
+        .check-row:last-child { border-bottom: none; }
+        .dot {
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            flex-shrink: 0;
+        }
+        .dot.clear { background: #22c55e; }
+        .dot.flagged { background: #ef4444; }
+        .dot.review { background: #eab308; }
+        .dot.error { background: #9ca3af; }
+        .loading {
+            text-align: center;
+            padding: 40px;
+            color: #666;
+        }
+        .error-box {
+            background: #fee2e2;
+            border-radius: 8px;
+            padding: 16px;
+            color: #991b1b;
+        }
+        .sources {
+            font-size: 0.75em;
+            color: #999;
+            margin-top: 12px;
+        }
+        #results { display: none; }
+    </style>
+</head>
+<body>
+    <h1>🏥 HCP Compliance Checker</h1>
+    <p class="subtitle">Real-time healthcare provider verification across NPI, OIG, and SAM.gov</p>
+
+    <div class="search-box">
+        <label for="npi">Enter NPI Number</label>
+        <input 
+            type="text" 
+            id="npi" 
+            placeholder="e.g. 1003000126" 
+            maxlength="10"
+        />
+        <button onclick="runCheck()" id="checkBtn">Run Compliance Check</button>
+    </div>
+
+    <div id="results"></div>
+
+    <script>
+        async function runCheck() {
+            const npi = document.getElementById('npi').value.trim()
+            const btn = document.getElementById('checkBtn')
+            const results = document.getElementById('results')
+
+            if (!npi || npi.length !== 10) {
+                alert('Please enter a valid 10-digit NPI number')
+                return
+            }
+
+            btn.disabled = true
+            btn.textContent = 'Checking...'
+            results.style.display = 'block'
+            results.innerHTML = '<div class="loading">⏳ Running compliance checks — this may take 30-60 seconds while exclusion lists are loaded...</div>'
+
+            try {
+                const response = await fetch('http://127.0.0.1:5000/verify', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ npi })
+                })
+
+                const data = await response.json()
+
+                if (!response.ok) {
+                    results.innerHTML = `<div class="error-box">❌ Error: ${data.error || 'Verification failed'}</div>`
+                    return
+                }
+
+                displayResults(data)
+
+            } catch (err) {
+                results.innerHTML = `<div class="error-box">❌ Could not connect to API. Make sure the Flask server is running on port 5000.</div>`
+            } finally {
+                btn.disabled = false
+                btn.textContent = 'Run Compliance Check'
+            }
+        }
+
+        function getStatusClass(status) {
+            if (status.includes('CLEARED')) return 'CLEARED'
+            if (status.includes('DO NOT')) return 'DONOTENGAGE'
+            if (status.includes('REVIEW')) return 'REVIEW'
+            return 'UNVERIFIED'
+        }
+
+        function getDotClass(status) {
+            if (status === 'clear' || status === 'verified') return 'clear'
+            if (status === 'flagged') return 'flagged'
+            if (status === 'review') return 'review'
+            return 'error'
+        }
+
+        function displayResults(data) {
+            const provider = data.provider || {}
+            const checks = data.checks || {}
+            const statusClass = getStatusClass(data.overall_status)
+
+            results.innerHTML = `
+                <div class="result-card">
+                    <h2>Compliance Report</h2>
+                    
+                    <span class="status-badge ${statusClass}">
+                        ${data.overall_status}
+                    </span>
+
+                    <div class="detail-grid">
+                        <div class="detail-item">
+                            <label>Provider Name</label>
+                            <p>${provider.name || 'N/A'} ${provider.credential || ''}</p>
+                        </div>
+                        <div class="detail-item">
+                            <label>NPI Number</label>
+                            <p>${data.npi}</p>
+                        </div>
+                        <div class="detail-item">
+                            <label>Specialty</label>
+                            <p>${provider.specialty || 'N/A'}</p>
+                        </div>
+                        <div class="detail-item">
+                            <label>License</label>
+                            <p>${provider.license_number || 'N/A'} (${provider.license_state || 'N/A'})</p>
+                        </div>
+                        <div class="detail-item">
+                            <label>Practice Address</label>
+                            <p>${provider.practice_address || 'N/A'}</p>
+                        </div>
+                        <div class="detail-item">
+                            <label>Last Updated</label>
+                            <p>${provider.last_updated || 'N/A'}</p>
+                        </div>
+                    </div>
+
+                    <div class="summary-box">
+                        ${data.compliance_summary || 'No summary available'}
+                    </div>
+
+                    <h3 style="margin: 16px 0 8px 0; font-size: 1em;">Checks Performed</h3>
+                    
+                    <div class="check-row">
+                        <div class="dot ${getDotClass(checks.npi?.status)}"></div>
+                        <strong>NPI Registry</strong> — ${checks.npi?.status === 'verified' ? 'Identity verified' : 'Not verified'}
+                    </div>
+                    <div class="check-row">
+                        <div class="dot ${getDotClass(checks.oig?.status)}"></div>
+                        <strong>OIG Exclusions</strong> — ${checks.oig?.message || 'N/A'}
+                    </div>
+                    <div class="check-row">
+                        <div class="dot ${getDotClass(checks.sam?.status)}"></div>
+                        <strong>SAM.gov Exclusions</strong> — ${checks.sam?.message || 'N/A'}
+                    </div>
+
+                    <p class="sources">
+                        Generated: ${data.generated_at} | 
+                        Sources: ${(data.data_sources || []).join(', ')}
+                    </p>
+                </div>
+            `
+        }
+
+        document.getElementById('npi').addEventListener('keypress', function(e) {
+            if (e.key === 'Enter') runCheck()
+        })
+    </script>
+</body>
+</html>
