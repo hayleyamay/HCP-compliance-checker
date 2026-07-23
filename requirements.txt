@@ -1,3 +1,5 @@
 requests
 groq
 thefuzz
+flask
+flask-cors
