@@ -1,0 +1,339 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "created": "2026-09-01",
+    "description": "HCP compliance checker test set \u2014 randomly sampled inputs, no expected outcomes",
+    "note": "Expected outcomes to be added after manual verification of pipeline results",
+    "sampling": {
+      "method": "random",
+      "seed": 42,
+      "specialties_pool": [
+        "Internal Medicine",
+        "Family Medicine",
+        "Pediatrics",
+        "Emergency Medicine",
+        "Psychiatry",
+        "Surgery",
+        "Anesthesiology",
+        "Obstetrics & Gynecology",
+        "Cardiology",
+        "Oncology"
+      ],
+      "states_pool": [
+        "CA",
+        "NY",
+        "TX",
+        "FL",
+        "PA",
+        "IL",
+        "OH",
+        "MA",
+        "NC",
+        "WA"
+      ],
+      "oig_source": "https://oig.hhs.gov/exclusions/downloadables/UPDATED.csv"
+    }
+  },
+  "test_cases": [
+    {
+      "id": "A001",
+      "category": "A",
+      "description": "Randomly sampled \u2014 Psychiatry in NY",
+      "provider_name": "",
+      "input": {
+        "npi": "1598032476"
+      }
+    },
+    {
+      "id": "A002",
+      "category": "A",
+      "description": "Randomly sampled \u2014 Oncology in NC",
+      "provider_name": "KAITLYN BUHLINGER",
+      "input": {
+        "npi": "1104486802"
+      }
+    },
+    {
+      "id": "A003",
+      "category": "A",
+      "description": "Randomly sampled \u2014 Family Medicine in TX",
+      "provider_name": "",
+      "input": {
+        "npi": "1700164662"
+      }
+    },
+    {
+      "id": "A004",
+      "category": "A",
+      "description": "Randomly sampled \u2014 Internal Medicine in CA",
+      "provider_name": "",
+      "input": {
+        "npi": "1306561030"
+      }
+    },
+    {
+      "id": "A005",
+      "category": "A",
+      "description": "Randomly sampled \u2014 Internal Medicine in WA",
+      "provider_name": "OMAR ABDELMAKSOUD",
+      "input": {
+        "npi": "1083391429"
+      }
+    },
+    {
+      "id": "A006",
+      "category": "A",
+      "description": "Randomly sampled \u2014 Psychiatry in NY",
+      "provider_name": "",
+      "input": {
+        "npi": "1336949171"
+      }
+    },
+    {
+      "id": "A007",
+      "category": "A",
+      "description": "Randomly sampled \u2014 Psychiatry in FL",
+      "provider_name": "",
+      "input": {
+        "npi": "1174197511"
+      }
+    },
+    {
+      "id": "A008",
+      "category": "A",
+      "description": "Randomly sampled \u2014 Psychiatry in FL",
+      "provider_name": "",
+      "input": {
+        "npi": "1417883299"
+      }
+    },
+    {
+      "id": "A009",
+      "category": "A",
+      "description": "Randomly sampled \u2014 Oncology in FL",
+      "provider_name": "OLANREWAJU ADEYEMI",
+      "input": {
+        "npi": "1295150324"
+      }
+    },
+    {
+      "id": "A010",
+      "category": "A",
+      "description": "Randomly sampled \u2014 Anesthesiology in NC",
+      "provider_name": "",
+      "input": {
+        "npi": "1043080732"
+      }
+    },
+    {
+      "id": "A011",
+      "category": "A",
+      "description": "Randomly sampled \u2014 Internal Medicine in WA",
+      "provider_name": "OMODELE ABDULKAREEM",
+      "input": {
+        "npi": "1851260467"
+      }
+    },
+    {
+      "id": "A012",
+      "category": "A",
+      "description": "Randomly sampled \u2014 Oncology in NC",
+      "provider_name": "MARGARET CAMPBELL",
+      "input": {
+        "npi": "1215861422"
+      }
+    },
+    {
+      "id": "A013",
+      "category": "A",
+      "description": "Randomly sampled \u2014 Family Medicine in TX",
+      "provider_name": "",
+      "input": {
+        "npi": "1437270220"
+      }
+    },
+    {
+      "id": "A014",
+      "category": "A",
+      "description": "Randomly sampled \u2014 Internal Medicine in CA",
+      "provider_name": "",
+      "input": {
+        "npi": "1164869780"
+      }
+    },
+    {
+      "id": "A015",
+      "category": "A",
+      "description": "Randomly sampled \u2014 Family Medicine in NY",
+      "provider_name": "",
+      "input": {
+        "npi": "1194830265"
+      }
+    },
+    {
+      "id": "A016",
+      "category": "A",
+      "description": "Randomly sampled \u2014 Family Medicine in NC",
+      "provider_name": "",
+      "input": {
+        "npi": "1922960590"
+      }
+    },
+    {
+      "id": "A017",
+      "category": "A",
+      "description": "Randomly sampled \u2014 Oncology in NC",
+      "provider_name": "MAURICE ALEXANDER",
+      "input": {
+        "npi": "1710311410"
+      }
+    },
+    {
+      "id": "A018",
+      "category": "A",
+      "description": "Randomly sampled \u2014 Anesthesiology in OH",
+      "provider_name": "CHRISTINE ABBOUD",
+      "input": {
+        "npi": "1174901508"
+      }
+    },
+    {
+      "id": "A019",
+      "category": "A",
+      "description": "Randomly sampled \u2014 Oncology in CA",
+      "provider_name": "HAMZA ABID",
+      "input": {
+        "npi": "1558891770"
+      }
+    },
+    {
+      "id": "A020",
+      "category": "A",
+      "description": "Randomly sampled \u2014 Anesthesiology in NC",
+      "provider_name": "JOSEPH ABRO",
+      "input": {
+        "npi": "1144630286"
+      }
+    },
+    {
+      "id": "B001",
+      "category": "B",
+      "description": "Randomly sampled OIG excluded individual",
+      "excluded_name": "KIMBERLY CANADA",
+      "exclusion_type": "1128b4",
+      "exclusion_date": "20240220",
+      "state": "TX",
+      "input": {
+        "name": "KIMBERLY CANADA"
+      }
+    },
+    {
+      "id": "B002",
+      "category": "B",
+      "description": "Randomly sampled OIG excluded individual",
+      "excluded_name": "WALDO PASACHE",
+      "exclusion_type": "1128b4",
+      "exclusion_date": "20110220",
+      "state": "CA",
+      "input": {
+        "name": "WALDO PASACHE"
+      }
+    },
+    {
+      "id": "B003",
+      "category": "B",
+      "description": "Randomly sampled OIG excluded individual",
+      "excluded_name": "TODD WEITZ",
+      "exclusion_type": "1128a2",
+      "exclusion_date": "20010320",
+      "state": "FL",
+      "input": {
+        "name": "TODD WEITZ"
+      }
+    },
+    {
+      "id": "B004",
+      "category": "B",
+      "description": "Randomly sampled OIG excluded individual",
+      "excluded_name": "ROBERT VANWEY",
+      "exclusion_type": "1128a1",
+      "exclusion_date": "19980720",
+      "state": "OH",
+      "input": {
+        "name": "ROBERT VANWEY"
+      }
+    },
+    {
+      "id": "B005",
+      "category": "B",
+      "description": "Randomly sampled OIG excluded individual",
+      "excluded_name": "LISA ST CLAIR",
+      "exclusion_type": "1128b4",
+      "exclusion_date": "20200618",
+      "state": "KY",
+      "input": {
+        "name": "LISA ST CLAIR"
+      }
+    },
+    {
+      "id": "B006",
+      "category": "B",
+      "description": "Randomly sampled OIG excluded individual",
+      "excluded_name": "MARILYN LEE",
+      "exclusion_type": "1128b4",
+      "exclusion_date": "20050818",
+      "state": "AZ",
+      "input": {
+        "name": "MARILYN LEE"
+      }
+    },
+    {
+      "id": "B007",
+      "category": "B",
+      "description": "Randomly sampled OIG excluded individual",
+      "excluded_name": "CAROL HUTTINGER",
+      "exclusion_type": "1128b4",
+      "exclusion_date": "19990520",
+      "state": "PA",
+      "input": {
+        "name": "CAROL HUTTINGER"
+      }
+    },
+    {
+      "id": "B008",
+      "category": "B",
+      "description": "Randomly sampled OIG excluded individual",
+      "excluded_name": "AMPARO GONZALEZ",
+      "exclusion_type": "1128b4",
+      "exclusion_date": "20041020",
+      "state": "CA",
+      "input": {
+        "name": "AMPARO GONZALEZ"
+      }
+    },
+    {
+      "id": "B009",
+      "category": "B",
+      "description": "Randomly sampled OIG excluded individual",
+      "excluded_name": "JAMES LAZAROWECZ",
+      "exclusion_type": "1128b4",
+      "exclusion_date": "20161220",
+      "state": "FL",
+      "input": {
+        "name": "JAMES LAZAROWECZ"
+      }
+    },
+    {
+      "id": "B010",
+      "category": "B",
+      "description": "Randomly sampled OIG excluded individual",
+      "excluded_name": "MICHAEL HENDRICKSON",
+      "exclusion_type": "1128b4",
+      "exclusion_date": "20091220",
+      "state": "WA",
+      "input": {
+        "name": "MICHAEL HENDRICKSON"
+      }
+    }
+  ]
+}
