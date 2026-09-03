@@ -1,7 +1,25 @@
 import requests
 
-def check_npi(npi_number):
-    url = f"https://npiregistry.cms.hhs.gov/api/?number={npi_number}&version=2.1"
+def check_npi(npi_number=None, name=None):
+    
+    if npi_number:
+        url = f"https://npiregistry.cms.hhs.gov/api/?number={npi_number}&version=2.1"
+    elif name:
+        name_parts = name.strip().split()
+        if len(name_parts) >= 2:
+            first = name_parts[0]
+            last = name_parts[-1]
+            url = f"https://npiregistry.cms.hhs.gov/api/?first_name={first}&last_name={last}&version=2.1"
+        else:
+            return {
+                "status": "error",
+                "message": "Name must include at least first and last name"
+            }
+    else:
+        return {
+            "status": "error",
+            "message": "Either NPI number or name must be provided"
+        }
     
     try:
         response = requests.get(url, timeout=10)
@@ -16,7 +34,7 @@ def check_npi(npi_number):
     if data.get("result_count", 0) == 0:
         return {
             "status": "not_found",
-            "message": f"No provider found with NPI {npi_number}"
+            "message": f"No provider found"
         }
     
     provider = data["results"][0]
@@ -36,7 +54,7 @@ def check_npi(npi_number):
     
     return {
         "status": "verified",
-        "npi": npi_number,
+        "npi": provider.get("number", npi_number),
         "name": f"{basic.get('first_name', '')} {basic.get('last_name', '')}".strip(),
         "aliases": aliases,
         "credential": basic.get("credential", ""),
@@ -49,5 +67,7 @@ def check_npi(npi_number):
     }
 
 if __name__ == "__main__":
-    result = check_npi("1003000126")
-    print(result)
+    print("Testing by NPI:")
+    print(check_npi(npi_number="1003000126"))
+    print("\nTesting by name:")
+    print(check_npi(name="ARDALAN ENKESHAFI"))
