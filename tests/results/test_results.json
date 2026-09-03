@@ -1,0 +1,2742 @@
+{
+  "metadata": {
+    "run_at": "2026-09-03T15:27:21.535579",
+    "total_cases": 50,
+    "categories": {
+      "A": 20,
+      "B": 10,
+      "C": 10,
+      "D": 10
+    }
+  },
+  "results": [
+    {
+      "case_id": "A001",
+      "category": "A",
+      "description": "Randomly sampled \u2014 Psychiatry in CA",
+      "input": {
+        "npi": "1942262431"
+      },
+      "output": {
+        "overall_status": "CLEARED FOR ENGAGEMENT",
+        "npi_status": "verified",
+        "oig_status": "clear",
+        "sam_status": "clear",
+        "oig_score": 78,
+        "sam_score": 77,
+        "provider_name": "JOHN AALBERS",
+        "full_result": {
+          "npi": "1942262431",
+          "name_searched": "JOHN AALBERS",
+          "overall_status": "CLEARED FOR ENGAGEMENT",
+          "provider": {
+            "name": "JOHN AALBERS",
+            "credential": "M.D.",
+            "specialty": "Psychiatry & Neurology, Neurology",
+            "license_number": "G26935",
+            "license_state": "CA",
+            "practice_address": "4060 4TH AVE, SAN DIEGO, CA 921032116",
+            "last_updated": "2026-07-13"
+          },
+          "npi_check": {
+            "status": "verified",
+            "npi": "1942262431",
+            "name": "JOHN AALBERS",
+            "aliases": [],
+            "credential": "M.D.",
+            "specialty": "Psychiatry & Neurology, Neurology",
+            "license_number": "G26935",
+            "license_state": "CA",
+            "practice_address": "4060 4TH AVE, SAN DIEGO, CA 921032116",
+            "enumeration_date": "2006-04-03",
+            "last_updated": "2026-07-13"
+          },
+          "oig_check": {
+            "status": "clear",
+            "message": "No match found on OIG exclusion list",
+            "names_searched": [
+              "JOHN AALBERS"
+            ],
+            "match_score": 78
+          },
+          "sam_check": {
+            "status": "clear",
+            "message": "No match found on SAM exclusions list",
+            "names_searched": [
+              "JOHN AALBERS"
+            ],
+            "match_score": 77
+          }
+        }
+      }
+    },
+    {
+      "case_id": "A002",
+      "category": "A",
+      "description": "Randomly sampled \u2014 Anesthesiology in OH",
+      "input": {
+        "npi": "1568219848"
+      },
+      "output": {
+        "overall_status": "CLEARED FOR ENGAGEMENT",
+        "npi_status": "verified",
+        "oig_status": "clear",
+        "sam_status": "clear",
+        "oig_score": 69,
+        "sam_score": 65,
+        "provider_name": "SUMAYYA ABOOBACKER",
+        "full_result": {
+          "npi": "1568219848",
+          "name_searched": "SUMAYYA ABOOBACKER",
+          "overall_status": "CLEARED FOR ENGAGEMENT",
+          "provider": {
+            "name": "SUMAYYA ABOOBACKER",
+            "credential": "",
+            "specialty": "Student in an Organized Health Care Education/Training Program",
+            "license_number": null,
+            "license_state": "OH",
+            "practice_address": "9500 EUCLID AVE # JJ24, CLEVELAND, OH 441950002",
+            "last_updated": "2026-05-10"
+          },
+          "npi_check": {
+            "status": "verified",
+            "npi": "1568219848",
+            "name": "SUMAYYA ABOOBACKER",
+            "aliases": [],
+            "credential": "",
+            "specialty": "Student in an Organized Health Care Education/Training Program",
+            "license_number": null,
+            "license_state": "OH",
+            "practice_address": "9500 EUCLID AVE # JJ24, CLEVELAND, OH 441950002",
+            "enumeration_date": "2024-05-03",
+            "last_updated": "2026-05-10"
+          },
+          "oig_check": {
+            "status": "clear",
+            "message": "No match found on OIG exclusion list",
+            "names_searched": [
+              "SUMAYYA ABOOBACKER"
+            ],
+            "match_score": 69
+          },
+          "sam_check": {
+            "status": "clear",
+            "message": "No match found on SAM exclusions list",
+            "names_searched": [
+              "SUMAYYA ABOOBACKER"
+            ],
+            "match_score": 65
+          }
+        }
+      }
+    },
+    {
+      "case_id": "A003",
+      "category": "A",
+      "description": "Randomly sampled \u2014 Internal Medicine in WA",
+      "input": {
+        "npi": "1114904323"
+      },
+      "output": {
+        "overall_status": "CLEARED FOR ENGAGEMENT",
+        "npi_status": "verified",
+        "oig_status": "clear",
+        "sam_status": "clear",
+        "oig_score": 63,
+        "sam_score": 68,
+        "provider_name": "AMR ABD-AL-GHAFFAR",
+        "full_result": {
+          "npi": "1114904323",
+          "name_searched": "AMR ABD-AL-GHAFFAR",
+          "overall_status": "CLEARED FOR ENGAGEMENT",
+          "provider": {
+            "name": "AMR ABD-AL-GHAFFAR",
+            "credential": "MD",
+            "specialty": "Internal Medicine, Medical Oncology",
+            "license_number": "MD051516L",
+            "license_state": "PA",
+            "practice_address": "820 N CHELAN AVE, WENATCHEE, WA 988012028",
+            "last_updated": "2007-07-08"
+          },
+          "npi_check": {
+            "status": "verified",
+            "npi": "1114904323",
+            "name": "AMR ABD-AL-GHAFFAR",
+            "aliases": [],
+            "credential": "MD",
+            "specialty": "Internal Medicine, Medical Oncology",
+            "license_number": "MD051516L",
+            "license_state": "PA",
+            "practice_address": "820 N CHELAN AVE, WENATCHEE, WA 988012028",
+            "enumeration_date": "2005-12-29",
+            "last_updated": "2007-07-08"
+          },
+          "oig_check": {
+            "status": "clear",
+            "message": "No match found on OIG exclusion list",
+            "names_searched": [
+              "AMR ABD-AL-GHAFFAR"
+            ],
+            "match_score": 63
+          },
+          "sam_check": {
+            "status": "clear",
+            "message": "No match found on SAM exclusions list",
+            "names_searched": [
+              "AMR ABD-AL-GHAFFAR"
+            ],
+            "match_score": 68
+          }
+        }
+      }
+    },
+    {
+      "case_id": "A004",
+      "category": "A",
+      "description": "Randomly sampled \u2014 Anesthesiology in NC",
+      "input": {
+        "npi": "1194711754"
+      },
+      "output": {
+        "overall_status": "CLEARED FOR ENGAGEMENT",
+        "npi_status": "verified",
+        "oig_status": "clear",
+        "sam_status": "clear",
+        "oig_score": 65,
+        "sam_score": 69,
+        "provider_name": "SULEIMAN ABU AFASH",
+        "full_result": {
+          "npi": "1194711754",
+          "name_searched": "SULEIMAN ABU AFASH",
+          "overall_status": "CLEARED FOR ENGAGEMENT",
+          "provider": {
+            "name": "SULEIMAN ABU AFASH",
+            "credential": "MD",
+            "specialty": "Anesthesiology",
+            "license_number": "0101245683",
+            "license_state": "VA",
+            "practice_address": "7TH & CLAYTON STS, WILMINGTON, DE 19805",
+            "last_updated": "2015-08-06"
+          },
+          "npi_check": {
+            "status": "verified",
+            "npi": "1194711754",
+            "name": "SULEIMAN ABU AFASH",
+            "aliases": [],
+            "credential": "MD",
+            "specialty": "Anesthesiology",
+            "license_number": "0101245683",
+            "license_state": "VA",
+            "practice_address": "7TH & CLAYTON STS, WILMINGTON, DE 19805",
+            "enumeration_date": "2005-09-20",
+            "last_updated": "2015-08-06"
+          },
+          "oig_check": {
+            "status": "clear",
+            "message": "No match found on OIG exclusion list",
+            "names_searched": [
+              "SULEIMAN ABU AFASH"
+            ],
+            "match_score": 65
+          },
+          "sam_check": {
+            "status": "clear",
+            "message": "No match found on SAM exclusions list",
+            "names_searched": [
+              "SULEIMAN ABU AFASH"
+            ],
+            "match_score": 69
+          }
+        }
+      }
+    },
+    {
+      "case_id": "A005",
+      "category": "A",
+      "description": "Randomly sampled \u2014 Family Medicine in NC",
+      "input": {
+        "npi": "1649582685"
+      },
+      "output": {
+        "overall_status": "CLEARED FOR ENGAGEMENT",
+        "npi_status": "verified",
+        "oig_status": "clear",
+        "sam_status": "clear",
+        "oig_score": 70,
+        "sam_score": 74,
+        "provider_name": "ALAIN MICHAEL ABELLADA",
+        "full_result": {
+          "npi": "1649582685",
+          "name_searched": "ALAIN MICHAEL ABELLADA",
+          "overall_status": "CLEARED FOR ENGAGEMENT",
+          "provider": {
+            "name": "ALAIN MICHAEL ABELLADA",
+            "credential": "M.D.",
+            "specialty": "Family Medicine",
+            "license_number": "2023-00166",
+            "license_state": "NC",
+            "practice_address": "2817 ROCK MERRITT AVE WOMACK ARMY MEDICAL CENTER, FORT BRAGG, NC 283105318",
+            "last_updated": "2025-06-09"
+          },
+          "npi_check": {
+            "status": "verified",
+            "npi": "1649582685",
+            "name": "ALAIN MICHAEL ABELLADA",
+            "aliases": [],
+            "credential": "M.D.",
+            "specialty": "Family Medicine",
+            "license_number": "2023-00166",
+            "license_state": "NC",
+            "practice_address": "2817 ROCK MERRITT AVE WOMACK ARMY MEDICAL CENTER, FORT BRAGG, NC 283105318",
+            "enumeration_date": "2010-07-07",
+            "last_updated": "2025-06-09"
+          },
+          "oig_check": {
+            "status": "clear",
+            "message": "No match found on OIG exclusion list",
+            "names_searched": [
+              "ALAIN MICHAEL ABELLADA"
+            ],
+            "match_score": 70
+          },
+          "sam_check": {
+            "status": "clear",
+            "message": "No match found on SAM exclusions list",
+            "names_searched": [
+              "ALAIN MICHAEL ABELLADA"
+            ],
+            "match_score": 74
+          }
+        }
+      }
+    },
+    {
+      "case_id": "A006",
+      "category": "A",
+      "description": "Randomly sampled \u2014 Internal Medicine in WA",
+      "input": {
+        "npi": "1639166119"
+      },
+      "output": {
+        "overall_status": "REQUIRES REVIEW",
+        "npi_status": "verified",
+        "oig_status": "review",
+        "sam_status": "clear",
+        "oig_score": 89,
+        "sam_score": 77,
+        "provider_name": "PAUL ABDALLAH",
+        "full_result": {
+          "npi": "1639166119",
+          "name_searched": "PAUL ABDALLAH",
+          "overall_status": "REQUIRES REVIEW",
+          "provider": {
+            "name": "PAUL ABDALLAH",
+            "credential": "MD",
+            "specialty": "Internal Medicine",
+            "license_number": "MD00013277",
+            "license_state": "WA",
+            "practice_address": "515 MINOR AVE, SEATTLE, WA 981042120",
+            "last_updated": "2008-03-06"
+          },
+          "npi_check": {
+            "status": "verified",
+            "npi": "1639166119",
+            "name": "PAUL ABDALLAH",
+            "aliases": [],
+            "credential": "MD",
+            "specialty": "Internal Medicine",
+            "license_number": "MD00013277",
+            "license_state": "WA",
+            "practice_address": "515 MINOR AVE, SEATTLE, WA 981042120",
+            "enumeration_date": "2005-09-30",
+            "last_updated": "2008-03-06"
+          },
+          "oig_check": {
+            "status": "review",
+            "message": "Possible match found on OIG exclusion list \u2014 human review required",
+            "name_searched": "PAUL ABDALLAH",
+            "match_score": 89,
+            "matched_entry": {
+              "name": "PAULA ABDULLAH",
+              "exclusion_type": "1128a1",
+              "exclusion_date": "20240919",
+              "state": "IL"
+            }
+          },
+          "sam_check": {
+            "status": "clear",
+            "message": "No match found on SAM exclusions list",
+            "names_searched": [
+              "PAUL ABDALLAH"
+            ],
+            "match_score": 77
+          }
+        }
+      }
+    },
+    {
+      "case_id": "A007",
+      "category": "A",
+      "description": "Randomly sampled \u2014 Internal Medicine in WA",
+      "input": {
+        "npi": "1083391429"
+      },
+      "output": {
+        "overall_status": "CLEARED FOR ENGAGEMENT",
+        "npi_status": "verified",
+        "oig_status": "clear",
+        "sam_status": "clear",
+        "oig_score": 76,
+        "sam_score": 70,
+        "provider_name": "OMAR ABDELMAKSOUD",
+        "full_result": {
+          "npi": "1083391429",
+          "name_searched": "OMAR ABDELMAKSOUD",
+          "overall_status": "CLEARED FOR ENGAGEMENT",
+          "provider": {
+            "name": "OMAR ABDELMAKSOUD",
+            "credential": "MD",
+            "specialty": "Internal Medicine",
+            "license_number": "TRN42652",
+            "license_state": "FL",
+            "practice_address": "8201 W BROWARD BLVD, PLANTATION, FL 333242701",
+            "last_updated": "2025-06-14"
+          },
+          "npi_check": {
+            "status": "verified",
+            "npi": "1083391429",
+            "name": "OMAR ABDELMAKSOUD",
+            "aliases": [],
+            "credential": "MD",
+            "specialty": "Internal Medicine",
+            "license_number": "TRN42652",
+            "license_state": "FL",
+            "practice_address": "8201 W BROWARD BLVD, PLANTATION, FL 333242701",
+            "enumeration_date": "2023-06-28",
+            "last_updated": "2025-06-14"
+          },
+          "oig_check": {
+            "status": "clear",
+            "message": "No match found on OIG exclusion list",
+            "names_searched": [
+              "OMAR ABDELMAKSOUD"
+            ],
+            "match_score": 76
+          },
+          "sam_check": {
+            "status": "clear",
+            "message": "No match found on SAM exclusions list",
+            "names_searched": [
+              "OMAR ABDELMAKSOUD"
+            ],
+            "match_score": 70
+          }
+        }
+      }
+    },
+    {
+      "case_id": "A008",
+      "category": "A",
+      "description": "Randomly sampled \u2014 Internal Medicine in OH",
+      "input": {
+        "npi": "1063895522"
+      },
+      "output": {
+        "overall_status": "DO NOT ENGAGE",
+        "npi_status": "verified",
+        "oig_status": "flagged",
+        "sam_status": "clear",
+        "oig_score": 96,
+        "sam_score": 77,
+        "provider_name": "NICOLE ABBOT",
+        "full_result": {
+          "npi": "1063895522",
+          "name_searched": "NICOLE ABBOT",
+          "overall_status": "DO NOT ENGAGE",
+          "provider": {
+            "name": "NICOLE ABBOT",
+            "credential": "MD",
+            "specialty": "Psychiatry & Neurology, Psychiatry",
+            "license_number": "53296",
+            "license_state": "KY",
+            "practice_address": "605 MAN O WAR BLVD, UNION, KY 410912017",
+            "last_updated": "2026-08-06"
+          },
+          "npi_check": {
+            "status": "verified",
+            "npi": "1063895522",
+            "name": "NICOLE ABBOT",
+            "aliases": [
+              "NICOLE ABBOT"
+            ],
+            "credential": "MD",
+            "specialty": "Psychiatry & Neurology, Psychiatry",
+            "license_number": "53296",
+            "license_state": "KY",
+            "practice_address": "605 MAN O WAR BLVD, UNION, KY 410912017",
+            "enumeration_date": "2015-07-02",
+            "last_updated": "2026-08-06"
+          },
+          "oig_check": {
+            "status": "flagged",
+            "message": "High confidence match found on OIG exclusion list",
+            "name_searched": "NICOLE ABBOT",
+            "match_score": 96,
+            "matched_entry": {
+              "name": "NICOLE ABBOTT",
+              "exclusion_type": "1128b4",
+              "exclusion_date": "20180118",
+              "state": "NC"
+            }
+          },
+          "sam_check": {
+            "status": "clear",
+            "message": "No match found on SAM exclusions list",
+            "names_searched": [
+              "NICOLE ABBOT",
+              "NICOLE ABBOT"
+            ],
+            "match_score": 77
+          }
+        }
+      }
+    },
+    {
+      "case_id": "A009",
+      "category": "A",
+      "description": "Randomly sampled \u2014 Anesthesiology in FL",
+      "input": {
+        "npi": "1548222573"
+      },
+      "output": {
+        "overall_status": "REQUIRES REVIEW",
+        "npi_status": "verified",
+        "oig_status": "review",
+        "sam_status": "review",
+        "oig_score": 82,
+        "sam_score": 80,
+        "provider_name": "IRA ABELS",
+        "full_result": {
+          "npi": "1548222573",
+          "name_searched": "IRA ABELS",
+          "overall_status": "REQUIRES REVIEW",
+          "provider": {
+            "name": "IRA ABELS",
+            "credential": "M.D.",
+            "specialty": "Anesthesiology",
+            "license_number": "ME0053595",
+            "license_state": "FL",
+            "practice_address": "2950 CLEVELAND CLINIC BLVD, WESTON, FL 333313609",
+            "last_updated": "2008-03-03"
+          },
+          "npi_check": {
+            "status": "verified",
+            "npi": "1548222573",
+            "name": "IRA ABELS",
+            "aliases": [],
+            "credential": "M.D.",
+            "specialty": "Anesthesiology",
+            "license_number": "ME0053595",
+            "license_state": "FL",
+            "practice_address": "2950 CLEVELAND CLINIC BLVD, WESTON, FL 333313609",
+            "enumeration_date": "2006-04-05",
+            "last_updated": "2008-03-03"
+          },
+          "oig_check": {
+            "status": "review",
+            "message": "Possible match found on OIG exclusion list \u2014 human review required",
+            "name_searched": "IRA ABELS",
+            "match_score": 82,
+            "matched_entry": {
+              "name": "IRA BELL",
+              "exclusion_type": "1128a1",
+              "exclusion_date": "20110519",
+              "state": "NY"
+            }
+          },
+          "sam_check": {
+            "status": "review",
+            "message": "Possible match found on SAM exclusions list \u2014 human review required",
+            "name_searched": "IRA ABELS",
+            "match_score": 80,
+            "matched_entry": {
+              "name": "ABELIA",
+              "country": "",
+              "topics": ""
+            }
+          }
+        }
+      }
+    },
+    {
+      "case_id": "A010",
+      "category": "A",
+      "description": "Randomly sampled \u2014 Oncology in NC",
+      "input": {
+        "npi": "1932579406"
+      },
+      "output": {
+        "overall_status": "REQUIRES REVIEW",
+        "npi_status": "verified",
+        "oig_status": "review",
+        "sam_status": "review",
+        "oig_score": 80,
+        "sam_score": 80,
+        "provider_name": "JILL BATES",
+        "full_result": {
+          "npi": "1932579406",
+          "name_searched": "JILL BATES",
+          "overall_status": "REQUIRES REVIEW",
+          "provider": {
+            "name": "JILL BATES",
+            "credential": "Pharm.D., M.S.",
+            "specialty": "Health Educator",
+            "license_number": "18279",
+            "license_state": "NC",
+            "practice_address": "1004 RUSHDEN WAY, APEX, NC 275025031",
+            "last_updated": "2022-10-07"
+          },
+          "npi_check": {
+            "status": "verified",
+            "npi": "1932579406",
+            "name": "JILL BATES",
+            "aliases": [
+              "JILL SCHURMANN"
+            ],
+            "credential": "Pharm.D., M.S.",
+            "specialty": "Health Educator",
+            "license_number": "18279",
+            "license_state": "NC",
+            "practice_address": "1004 RUSHDEN WAY, APEX, NC 275025031",
+            "enumeration_date": "2015-09-28",
+            "last_updated": "2022-10-07"
+          },
+          "oig_check": {
+            "status": "review",
+            "message": "Possible match found on OIG exclusion list \u2014 human review required",
+            "name_searched": "JILL BATES",
+            "match_score": 80,
+            "matched_entry": {
+              "name": "JILL BAKER",
+              "exclusion_type": "1128b4",
+              "exclusion_date": "20160120",
+              "state": "KS"
+            }
+          },
+          "sam_check": {
+            "status": "review",
+            "message": "Possible match found on SAM exclusions list \u2014 human review required",
+            "name_searched": "JILL BATES",
+            "match_score": 80,
+            "matched_entry": {
+              "name": "JILL BAKER",
+              "country": "",
+              "topics": ""
+            }
+          }
+        }
+      }
+    },
+    {
+      "case_id": "A011",
+      "category": "A",
+      "description": "Randomly sampled \u2014 Anesthesiology in OH",
+      "input": {
+        "npi": "1801356340"
+      },
+      "output": {
+        "overall_status": "CLEARED FOR ENGAGEMENT",
+        "npi_status": "verified",
+        "oig_status": "clear",
+        "sam_status": "clear",
+        "oig_score": 74,
+        "sam_score": 70,
+        "provider_name": "TAYLOR ABEGG-LAWRENCE",
+        "full_result": {
+          "npi": "1801356340",
+          "name_searched": "TAYLOR ABEGG-LAWRENCE",
+          "overall_status": "CLEARED FOR ENGAGEMENT",
+          "provider": {
+            "name": "TAYLOR ABEGG-LAWRENCE",
+            "credential": "MD",
+            "specialty": "Anesthesiology",
+            "license_number": "1019755",
+            "license_state": "MA",
+            "practice_address": "CLEVELAND CLINIC 9500 EUCLID AVENUE/JJ24, CLEVELAND, OH 441951473",
+            "last_updated": "2024-06-14"
+          },
+          "npi_check": {
+            "status": "verified",
+            "npi": "1801356340",
+            "name": "TAYLOR ABEGG-LAWRENCE",
+            "aliases": [],
+            "credential": "MD",
+            "specialty": "Anesthesiology",
+            "license_number": "1019755",
+            "license_state": "MA",
+            "practice_address": "CLEVELAND CLINIC 9500 EUCLID AVENUE/JJ24, CLEVELAND, OH 441951473",
+            "enumeration_date": "2019-03-21",
+            "last_updated": "2024-06-14"
+          },
+          "oig_check": {
+            "status": "clear",
+            "message": "No match found on OIG exclusion list",
+            "names_searched": [
+              "TAYLOR ABEGG-LAWRENCE"
+            ],
+            "match_score": 74
+          },
+          "sam_check": {
+            "status": "clear",
+            "message": "No match found on SAM exclusions list",
+            "names_searched": [
+              "TAYLOR ABEGG-LAWRENCE"
+            ],
+            "match_score": 70
+          }
+        }
+      }
+    },
+    {
+      "case_id": "A012",
+      "category": "A",
+      "description": "Randomly sampled \u2014 Oncology in CA",
+      "input": {
+        "npi": "1801722327"
+      },
+      "output": {
+        "overall_status": "REQUIRES REVIEW",
+        "npi_status": "verified",
+        "oig_status": "review",
+        "sam_status": "review",
+        "oig_score": 81,
+        "sam_score": 81,
+        "provider_name": "CHERALYN ADRIAN",
+        "full_result": {
+          "npi": "1801722327",
+          "name_searched": "CHERALYN ADRIAN",
+          "overall_status": "REQUIRES REVIEW",
+          "provider": {
+            "name": "CHERALYN ADRIAN",
+            "credential": "RN",
+            "specialty": "Registered Nurse, Oncology",
+            "license_number": "731434",
+            "license_state": "CA",
+            "practice_address": "1825 4TH ST # L4145, SAN FRANCISCO, CA 941432350",
+            "last_updated": "2026-06-22"
+          },
+          "npi_check": {
+            "status": "verified",
+            "npi": "1801722327",
+            "name": "CHERALYN ADRIAN",
+            "aliases": [
+              "CHERIE ADRIAN"
+            ],
+            "credential": "RN",
+            "specialty": "Registered Nurse, Oncology",
+            "license_number": "731434",
+            "license_state": "CA",
+            "practice_address": "1825 4TH ST # L4145, SAN FRANCISCO, CA 941432350",
+            "enumeration_date": "2026-06-22",
+            "last_updated": "2026-06-22"
+          },
+          "oig_check": {
+            "status": "review",
+            "message": "Possible match found on OIG exclusion list \u2014 human review required",
+            "name_searched": "CHERALYN ADRIAN",
+            "match_score": 81,
+            "matched_entry": {
+              "name": "ADRIAN COHEN",
+              "exclusion_type": "1128b4",
+              "exclusion_date": "20030619",
+              "state": "MD"
+            }
+          },
+          "sam_check": {
+            "status": "review",
+            "message": "Possible match found on SAM exclusions list \u2014 human review required",
+            "name_searched": "CHERIE ADRIAN",
+            "match_score": 81,
+            "matched_entry": {
+              "name": "Adrian Witcher",
+              "country": "",
+              "topics": ""
+            }
+          }
+        }
+      }
+    },
+    {
+      "case_id": "A013",
+      "category": "A",
+      "description": "Randomly sampled \u2014 Family Medicine in NC",
+      "input": {
+        "npi": "1144312604"
+      },
+      "output": {
+        "overall_status": "REQUIRES REVIEW",
+        "npi_status": "verified",
+        "oig_status": "review",
+        "sam_status": "clear",
+        "oig_score": 83,
+        "sam_score": 79,
+        "provider_name": "JENNIFER ABBOTT",
+        "full_result": {
+          "npi": "1144312604",
+          "name_searched": "JENNIFER ABBOTT",
+          "overall_status": "REQUIRES REVIEW",
+          "provider": {
+            "name": "JENNIFER ABBOTT",
+            "credential": "MD",
+            "specialty": "Family Medicine",
+            "license_number": "200301313",
+            "license_state": "NC",
+            "practice_address": "257 BILTMORE AVE, ASHEVILLE, NC 288014120",
+            "last_updated": "2024-08-16"
+          },
+          "npi_check": {
+            "status": "verified",
+            "npi": "1144312604",
+            "name": "JENNIFER ABBOTT",
+            "aliases": [],
+            "credential": "MD",
+            "specialty": "Family Medicine",
+            "license_number": "200301313",
+            "license_state": "NC",
+            "practice_address": "257 BILTMORE AVE, ASHEVILLE, NC 288014120",
+            "enumeration_date": "2006-09-29",
+            "last_updated": "2024-08-16"
+          },
+          "oig_check": {
+            "status": "review",
+            "message": "Possible match found on OIG exclusion list \u2014 human review required",
+            "name_searched": "JENNIFER ABBOTT",
+            "match_score": 83,
+            "matched_entry": {
+              "name": "JENNIFER BETTS",
+              "exclusion_type": "1128a3",
+              "exclusion_date": "20130120",
+              "state": "OH"
+            }
+          },
+          "sam_check": {
+            "status": "clear",
+            "message": "No match found on SAM exclusions list",
+            "names_searched": [
+              "JENNIFER ABBOTT"
+            ],
+            "match_score": 79
+          }
+        }
+      }
+    },
+    {
+      "case_id": "A014",
+      "category": "A",
+      "description": "Randomly sampled \u2014 Anesthesiology in NC",
+      "input": {
+        "npi": "1427150366"
+      },
+      "output": {
+        "overall_status": "CLEARED FOR ENGAGEMENT",
+        "npi_status": "verified",
+        "oig_status": "clear",
+        "sam_status": "clear",
+        "oig_score": 77,
+        "sam_score": 77,
+        "provider_name": "FRANCIS ABDOU",
+        "full_result": {
+          "npi": "1427150366",
+          "name_searched": "FRANCIS ABDOU",
+          "overall_status": "CLEARED FOR ENGAGEMENT",
+          "provider": {
+            "name": "FRANCIS ABDOU",
+            "credential": "MD",
+            "specialty": "Anesthesiology",
+            "license_number": "9901093",
+            "license_state": "NC",
+            "practice_address": "3000 NEW BERN AVE, RALEIGH, NC 276101231",
+            "last_updated": "2015-12-16"
+          },
+          "npi_check": {
+            "status": "verified",
+            "npi": "1427150366",
+            "name": "FRANCIS ABDOU",
+            "aliases": [],
+            "credential": "MD",
+            "specialty": "Anesthesiology",
+            "license_number": "9901093",
+            "license_state": "NC",
+            "practice_address": "3000 NEW BERN AVE, RALEIGH, NC 276101231",
+            "enumeration_date": "2006-09-01",
+            "last_updated": "2015-12-16"
+          },
+          "oig_check": {
+            "status": "clear",
+            "message": "No match found on OIG exclusion list",
+            "names_searched": [
+              "FRANCIS ABDOU"
+            ],
+            "match_score": 77
+          },
+          "sam_check": {
+            "status": "clear",
+            "message": "No match found on SAM exclusions list",
+            "names_searched": [
+              "FRANCIS ABDOU"
+            ],
+            "match_score": 77
+          }
+        }
+      }
+    },
+    {
+      "case_id": "A015",
+      "category": "A",
+      "description": "Randomly sampled \u2014 Anesthesiology in OH",
+      "input": {
+        "npi": "1457088007"
+      },
+      "output": {
+        "overall_status": "CLEARED FOR ENGAGEMENT",
+        "npi_status": "verified",
+        "oig_status": "clear",
+        "sam_status": "clear",
+        "oig_score": 65,
+        "sam_score": 73,
+        "provider_name": "NOUR ABDALLAH HOCHAIMI",
+        "full_result": {
+          "npi": "1457088007",
+          "name_searched": "NOUR ABDALLAH HOCHAIMI",
+          "overall_status": "CLEARED FOR ENGAGEMENT",
+          "provider": {
+            "name": "NOUR ABDALLAH HOCHAIMI",
+            "credential": "",
+            "specialty": "Anesthesiology",
+            "license_number": "330357",
+            "license_state": "NY",
+            "practice_address": "CLEVELAND CLINIC MAIN CAMPUS 9500 EUCLID AVENUE/NA-23, CLEVELAND, OH 441950001",
+            "last_updated": "2025-03-26"
+          },
+          "npi_check": {
+            "status": "verified",
+            "npi": "1457088007",
+            "name": "NOUR ABDALLAH HOCHAIMI",
+            "aliases": [],
+            "credential": "",
+            "specialty": "Anesthesiology",
+            "license_number": "330357",
+            "license_state": "NY",
+            "practice_address": "CLEVELAND CLINIC MAIN CAMPUS 9500 EUCLID AVENUE/NA-23, CLEVELAND, OH 441950001",
+            "enumeration_date": "2022-08-03",
+            "last_updated": "2025-03-26"
+          },
+          "oig_check": {
+            "status": "clear",
+            "message": "No match found on OIG exclusion list",
+            "names_searched": [
+              "NOUR ABDALLAH HOCHAIMI"
+            ],
+            "match_score": 65
+          },
+          "sam_check": {
+            "status": "clear",
+            "message": "No match found on SAM exclusions list",
+            "names_searched": [
+              "NOUR ABDALLAH HOCHAIMI"
+            ],
+            "match_score": 73
+          }
+        }
+      }
+    },
+    {
+      "case_id": "A016",
+      "category": "A",
+      "description": "Randomly sampled \u2014 Oncology in FL",
+      "input": {
+        "npi": "1457803058"
+      },
+      "output": {
+        "overall_status": "CLEARED FOR ENGAGEMENT",
+        "npi_status": "verified",
+        "oig_status": "clear",
+        "sam_status": "clear",
+        "oig_score": 77,
+        "sam_score": 73,
+        "provider_name": "NICOLE AROMOLARAN",
+        "full_result": {
+          "npi": "1457803058",
+          "name_searched": "NICOLE AROMOLARAN",
+          "overall_status": "CLEARED FOR ENGAGEMENT",
+          "provider": {
+            "name": "NICOLE AROMOLARAN",
+            "credential": "MPHARM, RPh,CPh",
+            "specialty": "Pharmacist, Oncology",
+            "license_number": "PS47190",
+            "license_state": "FL",
+            "practice_address": "2501 N ORANGE AVE, ORLANDO, FL 328044603",
+            "last_updated": "2018-03-17"
+          },
+          "npi_check": {
+            "status": "verified",
+            "npi": "1457803058",
+            "name": "NICOLE AROMOLARAN",
+            "aliases": [],
+            "credential": "MPHARM, RPh,CPh",
+            "specialty": "Pharmacist, Oncology",
+            "license_number": "PS47190",
+            "license_state": "FL",
+            "practice_address": "2501 N ORANGE AVE, ORLANDO, FL 328044603",
+            "enumeration_date": "2016-10-29",
+            "last_updated": "2018-03-17"
+          },
+          "oig_check": {
+            "status": "clear",
+            "message": "No match found on OIG exclusion list",
+            "names_searched": [
+              "NICOLE AROMOLARAN"
+            ],
+            "match_score": 77
+          },
+          "sam_check": {
+            "status": "clear",
+            "message": "No match found on SAM exclusions list",
+            "names_searched": [
+              "NICOLE AROMOLARAN"
+            ],
+            "match_score": 73
+          }
+        }
+      }
+    },
+    {
+      "case_id": "A017",
+      "category": "A",
+      "description": "Randomly sampled \u2014 Oncology in CA",
+      "input": {
+        "npi": "1174221634"
+      },
+      "output": {
+        "overall_status": "CLEARED FOR ENGAGEMENT",
+        "npi_status": "verified",
+        "oig_status": "clear",
+        "sam_status": "clear",
+        "oig_score": 76,
+        "sam_score": 74,
+        "provider_name": "LEENA AGRAWAL",
+        "full_result": {
+          "npi": "1174221634",
+          "name_searched": "LEENA AGRAWAL",
+          "overall_status": "CLEARED FOR ENGAGEMENT",
+          "provider": {
+            "name": "LEENA AGRAWAL",
+            "credential": "PharmD",
+            "specialty": "Pharmacist, Oncology",
+            "license_number": "87447",
+            "license_state": "CA",
+            "practice_address": "3555 ROUND BARN CIR, SANTA ROSA, CA 954031757",
+            "last_updated": "2023-02-23"
+          },
+          "npi_check": {
+            "status": "verified",
+            "npi": "1174221634",
+            "name": "LEENA AGRAWAL",
+            "aliases": [],
+            "credential": "PharmD",
+            "specialty": "Pharmacist, Oncology",
+            "license_number": "87447",
+            "license_state": "CA",
+            "practice_address": "3555 ROUND BARN CIR, SANTA ROSA, CA 954031757",
+            "enumeration_date": "2023-02-23",
+            "last_updated": "2023-02-23"
+          },
+          "oig_check": {
+            "status": "clear",
+            "message": "No match found on OIG exclusion list",
+            "names_searched": [
+              "LEENA AGRAWAL"
+            ],
+            "match_score": 76
+          },
+          "sam_check": {
+            "status": "clear",
+            "message": "No match found on SAM exclusions list",
+            "names_searched": [
+              "LEENA AGRAWAL"
+            ],
+            "match_score": 74
+          }
+        }
+      }
+    },
+    {
+      "case_id": "A018",
+      "category": "A",
+      "description": "Randomly sampled \u2014 Anesthesiology in FL",
+      "input": {
+        "npi": "1912970419"
+      },
+      "output": {
+        "overall_status": "REQUIRES REVIEW",
+        "npi_status": "verified",
+        "oig_status": "review",
+        "sam_status": "review",
+        "oig_score": 81,
+        "sam_score": 81,
+        "provider_name": "ANTONIO ABADIA",
+        "full_result": {
+          "npi": "1912970419",
+          "name_searched": "ANTONIO ABADIA",
+          "overall_status": "REQUIRES REVIEW",
+          "provider": {
+            "name": "ANTONIO ABADIA",
+            "credential": "MD",
+            "specialty": "Anesthesiology",
+            "license_number": "ME57500",
+            "license_state": "FL",
+            "practice_address": "1613 HARRISON PKWY, SUNRISE, FL 333232853",
+            "last_updated": "2026-07-13"
+          },
+          "npi_check": {
+            "status": "verified",
+            "npi": "1912970419",
+            "name": "ANTONIO ABADIA",
+            "aliases": [],
+            "credential": "MD",
+            "specialty": "Anesthesiology",
+            "license_number": "ME57500",
+            "license_state": "FL",
+            "practice_address": "1613 HARRISON PKWY, SUNRISE, FL 333232853",
+            "enumeration_date": "2006-02-07",
+            "last_updated": "2026-07-13"
+          },
+          "oig_check": {
+            "status": "review",
+            "message": "Possible match found on OIG exclusion list \u2014 human review required",
+            "name_searched": "ANTONIO ABADIA",
+            "match_score": 81,
+            "matched_entry": {
+              "name": "ANTONIO ADAME",
+              "exclusion_type": "1128b4",
+              "exclusion_date": "20040120",
+              "state": "CA"
+            }
+          },
+          "sam_check": {
+            "status": "review",
+            "message": "Possible match found on SAM exclusions list \u2014 human review required",
+            "name_searched": "ANTONIO ABADIA",
+            "match_score": 81,
+            "matched_entry": {
+              "name": "Antonio Adame",
+              "country": "",
+              "topics": ""
+            }
+          }
+        }
+      }
+    },
+    {
+      "case_id": "A019",
+      "category": "A",
+      "description": "Randomly sampled \u2014 Psychiatry in NY",
+      "input": {
+        "npi": "1366928947"
+      },
+      "output": {
+        "overall_status": "REQUIRES REVIEW",
+        "npi_status": "verified",
+        "oig_status": "review",
+        "sam_status": "review",
+        "oig_score": 86,
+        "sam_score": 83,
+        "provider_name": "MUHAMMAD AADIL",
+        "full_result": {
+          "npi": "1366928947",
+          "name_searched": "MUHAMMAD AADIL",
+          "overall_status": "REQUIRES REVIEW",
+          "provider": {
+            "name": "MUHAMMAD AADIL",
+            "credential": "",
+            "specialty": "Psychiatry & Neurology, Psychiatry",
+            "license_number": "321957",
+            "license_state": "NY",
+            "practice_address": "1400 PELHAM PKWAY, BRONX, NY 104691046",
+            "last_updated": "2023-11-15"
+          },
+          "npi_check": {
+            "status": "verified",
+            "npi": "1366928947",
+            "name": "MUHAMMAD AADIL",
+            "aliases": [],
+            "credential": "",
+            "specialty": "Psychiatry & Neurology, Psychiatry",
+            "license_number": "321957",
+            "license_state": "NY",
+            "practice_address": "1400 PELHAM PKWAY, BRONX, NY 104691046",
+            "enumeration_date": "2018-07-17",
+            "last_updated": "2023-11-15"
+          },
+          "oig_check": {
+            "status": "review",
+            "message": "Possible match found on OIG exclusion list \u2014 human review required",
+            "name_searched": "MUHAMMAD AADIL",
+            "match_score": 86,
+            "matched_entry": {
+              "name": "MUHAMMAD AAMIR",
+              "exclusion_type": "1128a1",
+              "exclusion_date": "20170220",
+              "state": "MI"
+            }
+          },
+          "sam_check": {
+            "status": "review",
+            "message": "Possible match found on SAM exclusions list \u2014 human review required",
+            "name_searched": "MUHAMMAD AADIL",
+            "match_score": 83,
+            "matched_entry": {
+              "name": "Muhammad MAHALA",
+              "country": "",
+              "topics": ""
+            }
+          }
+        }
+      }
+    },
+    {
+      "case_id": "A020",
+      "category": "A",
+      "description": "Randomly sampled \u2014 Internal Medicine in WA",
+      "input": {
+        "npi": "1528565520"
+      },
+      "output": {
+        "overall_status": "REQUIRES REVIEW",
+        "npi_status": "verified",
+        "oig_status": "review",
+        "sam_status": "review",
+        "oig_score": 88,
+        "sam_score": 85,
+        "provider_name": "REBECCA ABAY",
+        "full_result": {
+          "npi": "1528565520",
+          "name_searched": "REBECCA ABAY",
+          "overall_status": "REQUIRES REVIEW",
+          "provider": {
+            "name": "REBECCA ABAY",
+            "credential": "",
+            "specialty": "Internal Medicine",
+            "license_number": "MD61087772",
+            "license_state": "WA",
+            "practice_address": "1959 NE PACIFIC ST, SEATTLE, WA 98195",
+            "last_updated": "2021-08-18"
+          },
+          "npi_check": {
+            "status": "verified",
+            "npi": "1528565520",
+            "name": "REBECCA ABAY",
+            "aliases": [],
+            "credential": "",
+            "specialty": "Internal Medicine",
+            "license_number": "MD61087772",
+            "license_state": "WA",
+            "practice_address": "1959 NE PACIFIC ST, SEATTLE, WA 98195",
+            "enumeration_date": "2018-04-07",
+            "last_updated": "2021-08-18"
+          },
+          "oig_check": {
+            "status": "review",
+            "message": "Possible match found on OIG exclusion list \u2014 human review required",
+            "name_searched": "REBECCA ABAY",
+            "match_score": 88,
+            "matched_entry": {
+              "name": "REBECCA BANEY",
+              "exclusion_type": "1128b4",
+              "exclusion_date": "20201119",
+              "state": "IL"
+            }
+          },
+          "sam_check": {
+            "status": "review",
+            "message": "Possible match found on SAM exclusions list \u2014 human review required",
+            "name_searched": "REBECCA ABAY",
+            "match_score": 85,
+            "matched_entry": {
+              "name": "REBECCA A ADDY",
+              "country": "",
+              "topics": ""
+            }
+          }
+        }
+      }
+    },
+    {
+      "case_id": "B001",
+      "category": "B",
+      "description": "Randomly sampled OIG excluded individual",
+      "input": {
+        "name": "SHAN SAWYER"
+      },
+      "output": {
+        "overall_status": "REQUIRES REVIEW",
+        "npi_status": "verified",
+        "oig_status": "review",
+        "sam_status": "review",
+        "oig_score": 92,
+        "sam_score": 92,
+        "provider_name": "SHANAZ SAWYER",
+        "full_result": {
+          "npi": "1306071543",
+          "name_searched": "SHANAZ SAWYER",
+          "overall_status": "REQUIRES REVIEW",
+          "provider": {
+            "name": "SHANAZ SAWYER",
+            "credential": "PhD",
+            "specialty": "Counselor, Mental Health",
+            "license_number": "MH7822",
+            "license_state": "FL",
+            "practice_address": "5000 NW 27TH CT, GAINESVILLE, FL 326066593",
+            "last_updated": "2009-05-18"
+          },
+          "npi_check": {
+            "status": "verified",
+            "npi": "1306071543",
+            "name": "SHANAZ SAWYER",
+            "aliases": [],
+            "credential": "PhD",
+            "specialty": "Counselor, Mental Health",
+            "license_number": "MH7822",
+            "license_state": "FL",
+            "practice_address": "5000 NW 27TH CT, GAINESVILLE, FL 326066593",
+            "enumeration_date": "2009-05-18",
+            "last_updated": "2009-05-18"
+          },
+          "oig_check": {
+            "status": "review",
+            "message": "Possible match found on OIG exclusion list \u2014 human review required",
+            "name_searched": "SHANAZ SAWYER",
+            "match_score": 92,
+            "matched_entry": {
+              "name": "SHAN SAWYER",
+              "exclusion_type": "1128a1",
+              "exclusion_date": "19911022",
+              "state": "MI"
+            }
+          },
+          "sam_check": {
+            "status": "review",
+            "message": "Possible match found on SAM exclusions list \u2014 human review required",
+            "name_searched": "SHANAZ SAWYER",
+            "match_score": 92,
+            "matched_entry": {
+              "name": "Shan Sawyer",
+              "country": "",
+              "topics": ""
+            }
+          }
+        }
+      }
+    },
+    {
+      "case_id": "B002",
+      "category": "B",
+      "description": "Randomly sampled OIG excluded individual",
+      "input": {
+        "name": "DEAN ARTIAGA"
+      },
+      "output": {
+        "overall_status": "UNVERIFIED",
+        "npi_status": "not_found",
+        "oig_status": null,
+        "sam_status": null,
+        "oig_score": null,
+        "sam_score": null,
+        "provider_name": null,
+        "full_result": {
+          "npi": null,
+          "name_searched": "DEAN ARTIAGA",
+          "overall_status": "UNVERIFIED",
+          "message": "Provider could not be verified in NPI registry",
+          "npi_check": {
+            "status": "not_found",
+            "message": "No provider found"
+          },
+          "oig_check": null,
+          "sam_check": null
+        }
+      }
+    },
+    {
+      "case_id": "B003",
+      "category": "B",
+      "description": "Randomly sampled OIG excluded individual",
+      "input": {
+        "name": "BARRY COOPER"
+      },
+      "output": {
+        "overall_status": "DO NOT ENGAGE",
+        "npi_status": "verified",
+        "oig_status": "flagged",
+        "sam_status": "review",
+        "oig_score": 100,
+        "sam_score": 92,
+        "provider_name": "BARRY COOPER",
+        "full_result": {
+          "npi": "1760438410",
+          "name_searched": "BARRY COOPER",
+          "overall_status": "DO NOT ENGAGE",
+          "provider": {
+            "name": "BARRY COOPER",
+            "credential": "D.D.S.",
+            "specialty": "Dentist, General Practice",
+            "license_number": "23943",
+            "license_state": "NY",
+            "practice_address": "1315A BROADWAY, HEWLETT, NY 115572115",
+            "last_updated": "2026-07-13"
+          },
+          "npi_check": {
+            "status": "verified",
+            "npi": "1760438410",
+            "name": "BARRY COOPER",
+            "aliases": [],
+            "credential": "D.D.S.",
+            "specialty": "Dentist, General Practice",
+            "license_number": "23943",
+            "license_state": "NY",
+            "practice_address": "1315A BROADWAY, HEWLETT, NY 115572115",
+            "enumeration_date": "2006-05-25",
+            "last_updated": "2026-07-13"
+          },
+          "oig_check": {
+            "status": "flagged",
+            "message": "High confidence match found on OIG exclusion list",
+            "name_searched": "BARRY COOPER",
+            "match_score": 100,
+            "matched_entry": {
+              "name": "BARRY COOPER",
+              "exclusion_type": "1128b4",
+              "exclusion_date": "20231120",
+              "state": "FL"
+            }
+          },
+          "sam_check": {
+            "status": "review",
+            "message": "Possible match found on SAM exclusions list \u2014 human review required",
+            "name_searched": "BARRY COOPER",
+            "match_score": 92,
+            "matched_entry": {
+              "name": "BARRY E COOPER",
+              "country": "",
+              "topics": ""
+            }
+          }
+        }
+      }
+    },
+    {
+      "case_id": "B004",
+      "category": "B",
+      "description": "Randomly sampled OIG excluded individual",
+      "input": {
+        "name": "KIMBERLY MCPHERSON"
+      },
+      "output": {
+        "overall_status": "REQUIRES REVIEW",
+        "npi_status": "verified",
+        "oig_status": "review",
+        "sam_status": "review",
+        "oig_score": 92,
+        "sam_score": 84,
+        "provider_name": "KIM MCPHERSON",
+        "full_result": {
+          "npi": "1083140842",
+          "name_searched": "KIM MCPHERSON",
+          "overall_status": "REQUIRES REVIEW",
+          "provider": {
+            "name": "KIM MCPHERSON",
+            "credential": "",
+            "specialty": "Nutritionist, Nutrition, Education",
+            "license_number": null,
+            "license_state": null,
+            "practice_address": "611 COURT ST, CONWAY, AR 720325446",
+            "last_updated": "2017-05-11"
+          },
+          "npi_check": {
+            "status": "verified",
+            "npi": "1083140842",
+            "name": "KIM MCPHERSON",
+            "aliases": [],
+            "credential": "",
+            "specialty": "Nutritionist, Nutrition, Education",
+            "license_number": null,
+            "license_state": null,
+            "practice_address": "611 COURT ST, CONWAY, AR 720325446",
+            "enumeration_date": "2017-05-11",
+            "last_updated": "2017-05-11"
+          },
+          "oig_check": {
+            "status": "review",
+            "message": "Possible match found on OIG exclusion list \u2014 human review required",
+            "name_searched": "KIM MCPHERSON",
+            "match_score": 92,
+            "matched_entry": {
+              "name": "M MCPHERSON",
+              "exclusion_type": "1128b4",
+              "exclusion_date": "20080120",
+              "state": "NH"
+            }
+          },
+          "sam_check": {
+            "status": "review",
+            "message": "Possible match found on SAM exclusions list \u2014 human review required",
+            "name_searched": "KIM MCPHERSON",
+            "match_score": 84,
+            "matched_entry": {
+              "name": "KIMBERLY MCPHERSON",
+              "country": "",
+              "topics": ""
+            }
+          }
+        }
+      }
+    },
+    {
+      "case_id": "B005",
+      "category": "B",
+      "description": "Randomly sampled OIG excluded individual",
+      "input": {
+        "name": "JENNIE LAHAYE"
+      },
+      "output": {
+        "overall_status": "UNVERIFIED",
+        "npi_status": "not_found",
+        "oig_status": null,
+        "sam_status": null,
+        "oig_score": null,
+        "sam_score": null,
+        "provider_name": null,
+        "full_result": {
+          "npi": null,
+          "name_searched": "JENNIE LAHAYE",
+          "overall_status": "UNVERIFIED",
+          "message": "Provider could not be verified in NPI registry",
+          "npi_check": {
+            "status": "not_found",
+            "message": "No provider found"
+          },
+          "oig_check": null,
+          "sam_check": null
+        }
+      }
+    },
+    {
+      "case_id": "B006",
+      "category": "B",
+      "description": "Randomly sampled OIG excluded individual",
+      "input": {
+        "name": "ROBERT HENRY"
+      },
+      "output": {
+        "overall_status": "REQUIRES REVIEW",
+        "npi_status": "verified",
+        "oig_status": "review",
+        "sam_status": "review",
+        "oig_score": 87,
+        "sam_score": 80,
+        "provider_name": "ROBBIE COMANS",
+        "full_result": {
+          "npi": "1912454356",
+          "name_searched": "ROBBIE COMANS",
+          "overall_status": "REQUIRES REVIEW",
+          "provider": {
+            "name": "ROBBIE COMANS",
+            "credential": "",
+            "specialty": "Speech-Language Pathologist,  ",
+            "license_number": null,
+            "license_state": null,
+            "practice_address": "160 S HOLLYWOOD ST, MEMPHIS, TN 381124801",
+            "last_updated": "2016-09-01"
+          },
+          "npi_check": {
+            "status": "verified",
+            "npi": "1912454356",
+            "name": "ROBBIE COMANS",
+            "aliases": [
+              "ROBBIE HENRY"
+            ],
+            "credential": "",
+            "specialty": "Speech-Language Pathologist,  ",
+            "license_number": null,
+            "license_state": null,
+            "practice_address": "160 S HOLLYWOOD ST, MEMPHIS, TN 381124801",
+            "enumeration_date": "2016-09-01",
+            "last_updated": "2016-09-01"
+          },
+          "oig_check": {
+            "status": "review",
+            "message": "Possible match found on OIG exclusion list \u2014 human review required",
+            "name_searched": "ROBBIE HENRY",
+            "match_score": 87,
+            "matched_entry": {
+              "name": "ROBIN HENRY",
+              "exclusion_type": "1128b4",
+              "exclusion_date": "20061220",
+              "state": "IN"
+            }
+          },
+          "sam_check": {
+            "status": "review",
+            "message": "Possible match found on SAM exclusions list \u2014 human review required",
+            "name_searched": "ROBBIE COMANS",
+            "match_score": 80,
+            "matched_entry": {
+              "name": "ROBBIE JONES",
+              "country": "",
+              "topics": ""
+            }
+          }
+        }
+      }
+    },
+    {
+      "case_id": "B007",
+      "category": "B",
+      "description": "Randomly sampled OIG excluded individual",
+      "input": {
+        "name": "JOHN BOYES"
+      },
+      "output": {
+        "overall_status": "DO NOT ENGAGE",
+        "npi_status": "verified",
+        "oig_status": "flagged",
+        "sam_status": "review",
+        "oig_score": 100,
+        "sam_score": 86,
+        "provider_name": "JOHN BOYES",
+        "full_result": {
+          "npi": "1598715906",
+          "name_searched": "JOHN BOYES",
+          "overall_status": "DO NOT ENGAGE",
+          "provider": {
+            "name": "JOHN BOYES",
+            "credential": "M.D.",
+            "specialty": "Radiology, Diagnostic Radiology",
+            "license_number": "MD00011886",
+            "license_state": "WA",
+            "practice_address": "1229 MADISON ST, SEATTLE, WA 981043586",
+            "last_updated": "2026-07-13"
+          },
+          "npi_check": {
+            "status": "verified",
+            "npi": "1598715906",
+            "name": "JOHN BOYES",
+            "aliases": [],
+            "credential": "M.D.",
+            "specialty": "Radiology, Diagnostic Radiology",
+            "license_number": "MD00011886",
+            "license_state": "WA",
+            "practice_address": "1229 MADISON ST, SEATTLE, WA 981043586",
+            "enumeration_date": "2006-05-10",
+            "last_updated": "2026-07-13"
+          },
+          "oig_check": {
+            "status": "flagged",
+            "message": "High confidence match found on OIG exclusion list",
+            "name_searched": "JOHN BOYES",
+            "match_score": 100,
+            "matched_entry": {
+              "name": "JOHN BOYES",
+              "exclusion_type": "1128b4",
+              "exclusion_date": "20140820",
+              "state": "AZ"
+            }
+          },
+          "sam_check": {
+            "status": "review",
+            "message": "Possible match found on SAM exclusions list \u2014 human review required",
+            "name_searched": "JOHN BOYES",
+            "match_score": 86,
+            "matched_entry": {
+              "name": "JOHN BORGES",
+              "country": "",
+              "topics": ""
+            }
+          }
+        }
+      }
+    },
+    {
+      "case_id": "B008",
+      "category": "B",
+      "description": "Randomly sampled OIG excluded individual",
+      "input": {
+        "name": "GUADALUPE HERNANDEZ"
+      },
+      "output": {
+        "overall_status": "DO NOT ENGAGE",
+        "npi_status": "verified",
+        "oig_status": "flagged",
+        "sam_status": "flagged",
+        "oig_score": 100,
+        "sam_score": 100,
+        "provider_name": "GUADALUPE HERNANDEZ",
+        "full_result": {
+          "npi": "1356987010",
+          "name_searched": "GUADALUPE HERNANDEZ",
+          "overall_status": "DO NOT ENGAGE",
+          "provider": {
+            "name": "GUADALUPE HERNANDEZ",
+            "credential": "",
+            "specialty": "Technician",
+            "license_number": null,
+            "license_state": null,
+            "practice_address": "3650 MOUNT DIABLO BLVD, LAYAYETTE, CA 94501",
+            "last_updated": "2019-11-18"
+          },
+          "npi_check": {
+            "status": "verified",
+            "npi": "1356987010",
+            "name": "GUADALUPE HERNANDEZ",
+            "aliases": [],
+            "credential": "",
+            "specialty": "Technician",
+            "license_number": null,
+            "license_state": null,
+            "practice_address": "3650 MOUNT DIABLO BLVD, LAYAYETTE, CA 94501",
+            "enumeration_date": "2019-11-18",
+            "last_updated": "2019-11-18"
+          },
+          "oig_check": {
+            "status": "flagged",
+            "message": "High confidence match found on OIG exclusion list",
+            "name_searched": "GUADALUPE HERNANDEZ",
+            "match_score": 100,
+            "matched_entry": {
+              "name": "GUADALUPE HERNANDEZ",
+              "exclusion_type": "1128a1",
+              "exclusion_date": "20170420",
+              "state": "CA"
+            }
+          },
+          "sam_check": {
+            "status": "flagged",
+            "message": "High confidence match found on SAM exclusions list",
+            "name_searched": "GUADALUPE HERNANDEZ",
+            "match_score": 100,
+            "matched_entry": {
+              "name": "GUADALUPE HERNANDEZ",
+              "country": "",
+              "topics": ""
+            }
+          }
+        }
+      }
+    },
+    {
+      "case_id": "B009",
+      "category": "B",
+      "description": "Randomly sampled OIG excluded individual",
+      "input": {
+        "name": "REBECA VELAZCO"
+      },
+      "output": {
+        "overall_status": "UNVERIFIED",
+        "npi_status": "not_found",
+        "oig_status": null,
+        "sam_status": null,
+        "oig_score": null,
+        "sam_score": null,
+        "provider_name": null,
+        "full_result": {
+          "npi": null,
+          "name_searched": "REBECA VELAZCO",
+          "overall_status": "UNVERIFIED",
+          "message": "Provider could not be verified in NPI registry",
+          "npi_check": {
+            "status": "not_found",
+            "message": "No provider found"
+          },
+          "oig_check": null,
+          "sam_check": null
+        }
+      }
+    },
+    {
+      "case_id": "B010",
+      "category": "B",
+      "description": "Randomly sampled OIG excluded individual",
+      "input": {
+        "name": "ZUO CAI"
+      },
+      "output": {
+        "overall_status": "CLEARED FOR ENGAGEMENT",
+        "npi_status": "verified",
+        "oig_status": "clear",
+        "sam_status": "clear",
+        "oig_score": 78,
+        "sam_score": 70,
+        "provider_name": "ZUOPING CAI",
+        "full_result": {
+          "npi": "1386262368",
+          "name_searched": "ZUOPING CAI",
+          "overall_status": "CLEARED FOR ENGAGEMENT",
+          "provider": {
+            "name": "ZUOPING CAI",
+            "credential": "Lac",
+            "specialty": "Acupuncturist",
+            "license_number": "5418",
+            "license_state": "CA",
+            "practice_address": "159 E LIVE OAK AVE STE 108, ARCADIA, CA 910065251",
+            "last_updated": "2020-07-07"
+          },
+          "npi_check": {
+            "status": "verified",
+            "npi": "1386262368",
+            "name": "ZUOPING CAI",
+            "aliases": [],
+            "credential": "Lac",
+            "specialty": "Acupuncturist",
+            "license_number": "5418",
+            "license_state": "CA",
+            "practice_address": "159 E LIVE OAK AVE STE 108, ARCADIA, CA 910065251",
+            "enumeration_date": "2020-07-07",
+            "last_updated": "2020-07-07"
+          },
+          "oig_check": {
+            "status": "clear",
+            "message": "No match found on OIG exclusion list",
+            "names_searched": [
+              "ZUOPING CAI"
+            ],
+            "match_score": 78
+          },
+          "sam_check": {
+            "status": "clear",
+            "message": "No match found on SAM exclusions list",
+            "names_searched": [
+              "ZUOPING CAI"
+            ],
+            "match_score": 70
+          }
+        }
+      }
+    },
+    {
+      "case_id": "C001",
+      "category": "C",
+      "description": "Ambiguous common names",
+      "input": {
+        "name": "JOHN SMITH"
+      },
+      "output": {
+        "overall_status": "REQUIRES REVIEW",
+        "npi_status": "verified",
+        "oig_status": "review",
+        "sam_status": "clear",
+        "oig_score": 91,
+        "sam_score": 76,
+        "provider_name": "JACKELYN KELLEY",
+        "full_result": {
+          "npi": "1063837144",
+          "name_searched": "JACKELYN KELLEY",
+          "overall_status": "REQUIRES REVIEW",
+          "provider": {
+            "name": "JACKELYN KELLEY",
+            "credential": "LCSW",
+            "specialty": "Social Worker, Clinical",
+            "license_number": "100708",
+            "license_state": "CA",
+            "practice_address": "1001 POTRERO AVE, SAN FRANCISCO, CA 941103518",
+            "last_updated": "2021-04-25"
+          },
+          "npi_check": {
+            "status": "verified",
+            "npi": "1063837144",
+            "name": "JACKELYN KELLEY",
+            "aliases": [
+              "JACK SMITH"
+            ],
+            "credential": "LCSW",
+            "specialty": "Social Worker, Clinical",
+            "license_number": "100708",
+            "license_state": "CA",
+            "practice_address": "1001 POTRERO AVE, SAN FRANCISCO, CA 941103518",
+            "enumeration_date": "2014-02-26",
+            "last_updated": "2021-04-25"
+          },
+          "oig_check": {
+            "status": "review",
+            "message": "Possible match found on OIG exclusion list \u2014 human review required",
+            "name_searched": "JACK SMITH",
+            "match_score": 91,
+            "matched_entry": {
+              "name": "JACKIE SMITH",
+              "exclusion_type": "1128a1",
+              "exclusion_date": "20110620",
+              "state": "IA"
+            }
+          },
+          "sam_check": {
+            "status": "clear",
+            "message": "No match found on SAM exclusions list",
+            "names_searched": [
+              "JACKELYN KELLEY",
+              "JACK SMITH"
+            ],
+            "match_score": 76
+          }
+        }
+      }
+    },
+    {
+      "case_id": "C002",
+      "category": "C",
+      "description": "Ambiguous common names",
+      "input": {
+        "name": "DAVID MILLER"
+      },
+      "output": {
+        "overall_status": "DO NOT ENGAGE",
+        "npi_status": "verified",
+        "oig_status": "flagged",
+        "sam_status": "review",
+        "oig_score": 100,
+        "sam_score": 92,
+        "provider_name": "DAVID MILLER",
+        "full_result": {
+          "npi": "1225745730",
+          "name_searched": "DAVID MILLER",
+          "overall_status": "DO NOT ENGAGE",
+          "provider": {
+            "name": "DAVID MILLER",
+            "credential": "RNFA",
+            "specialty": "Registered Nurse, Registered Nurse First Assistant",
+            "license_number": "525983",
+            "license_state": "NY",
+            "practice_address": "LITTLE FALLS HOSPITAL, LITTLE FALLS, NY 13365",
+            "last_updated": "2022-11-03"
+          },
+          "npi_check": {
+            "status": "verified",
+            "npi": "1225745730",
+            "name": "DAVID MILLER",
+            "aliases": [],
+            "credential": "RNFA",
+            "specialty": "Registered Nurse, Registered Nurse First Assistant",
+            "license_number": "525983",
+            "license_state": "NY",
+            "practice_address": "LITTLE FALLS HOSPITAL, LITTLE FALLS, NY 13365",
+            "enumeration_date": "2022-11-03",
+            "last_updated": "2022-11-03"
+          },
+          "oig_check": {
+            "status": "flagged",
+            "message": "High confidence match found on OIG exclusion list",
+            "name_searched": "DAVID MILLER",
+            "match_score": 100,
+            "matched_entry": {
+              "name": "DAVID MILLER",
+              "exclusion_type": "1128b14",
+              "exclusion_date": "19951116",
+              "state": "CA"
+            }
+          },
+          "sam_check": {
+            "status": "review",
+            "message": "Possible match found on SAM exclusions list \u2014 human review required",
+            "name_searched": "DAVID MILLER",
+            "match_score": 92,
+            "matched_entry": {
+              "name": "David W. Miller",
+              "country": "",
+              "topics": ""
+            }
+          }
+        }
+      }
+    },
+    {
+      "case_id": "C003",
+      "category": "C",
+      "description": "Ambiguous common names",
+      "input": {
+        "name": "MARIA GARCIA-LOPEZ"
+      },
+      "output": {
+        "overall_status": "UNVERIFIED",
+        "npi_status": "not_found",
+        "oig_status": null,
+        "sam_status": null,
+        "oig_score": null,
+        "sam_score": null,
+        "provider_name": null,
+        "full_result": {
+          "npi": null,
+          "name_searched": "MARIA GARCIA-LOPEZ",
+          "overall_status": "UNVERIFIED",
+          "message": "Provider could not be verified in NPI registry",
+          "npi_check": {
+            "status": "not_found",
+            "message": "No provider found"
+          },
+          "oig_check": null,
+          "sam_check": null
+        }
+      }
+    },
+    {
+      "case_id": "C004",
+      "category": "C",
+      "description": "Ambiguous common names",
+      "input": {
+        "name": "MICHAEL BROWN"
+      },
+      "output": {
+        "overall_status": "DO NOT ENGAGE",
+        "npi_status": "verified",
+        "oig_status": "flagged",
+        "sam_status": "review",
+        "oig_score": 100,
+        "sam_score": 93,
+        "provider_name": "M BROWN",
+        "full_result": {
+          "npi": "1417031816",
+          "name_searched": "M BROWN",
+          "overall_status": "DO NOT ENGAGE",
+          "provider": {
+            "name": "M BROWN",
+            "credential": "D.C.",
+            "specialty": "Chiropractor",
+            "license_number": "569",
+            "license_state": "NM",
+            "practice_address": "755 S TELSHOR BLVD, LAS CRUCES, NM 880114688",
+            "last_updated": "2015-04-08"
+          },
+          "npi_check": {
+            "status": "verified",
+            "npi": "1417031816",
+            "name": "M BROWN",
+            "aliases": [
+              "MICHAEL BROWN"
+            ],
+            "credential": "D.C.",
+            "specialty": "Chiropractor",
+            "license_number": "569",
+            "license_state": "NM",
+            "practice_address": "755 S TELSHOR BLVD, LAS CRUCES, NM 880114688",
+            "enumeration_date": "2006-10-24",
+            "last_updated": "2015-04-08"
+          },
+          "oig_check": {
+            "status": "flagged",
+            "message": "High confidence match found on OIG exclusion list",
+            "name_searched": "MICHAEL BROWN",
+            "match_score": 100,
+            "matched_entry": {
+              "name": "MICHAEL BROWN",
+              "exclusion_type": "1128a4",
+              "exclusion_date": "20160120",
+              "state": "FL"
+            }
+          },
+          "sam_check": {
+            "status": "review",
+            "message": "Possible match found on SAM exclusions list \u2014 human review required",
+            "name_searched": "MICHAEL BROWN",
+            "match_score": 93,
+            "matched_entry": {
+              "name": "Michael L Brown",
+              "country": "",
+              "topics": ""
+            }
+          }
+        }
+      }
+    },
+    {
+      "case_id": "C005",
+      "category": "C",
+      "description": "Ambiguous common names",
+      "input": {
+        "name": "JOSE MENDOZA"
+      },
+      "output": {
+        "overall_status": "REQUIRES REVIEW",
+        "npi_status": "verified",
+        "oig_status": "review",
+        "sam_status": "clear",
+        "oig_score": 82,
+        "sam_score": 75,
+        "provider_name": "JOE MENDOZA",
+        "full_result": {
+          "npi": "1871653253",
+          "name_searched": "JOE MENDOZA",
+          "overall_status": "REQUIRES REVIEW",
+          "provider": {
+            "name": "JOE MENDOZA",
+            "credential": "M.D.",
+            "specialty": "Emergency Medicine, Emergency Medical Services",
+            "license_number": "F7535",
+            "license_state": "TX",
+            "practice_address": "5420 KELL BLVD, WICHITA FALLS, TX 763101610",
+            "last_updated": "2009-12-11"
+          },
+          "npi_check": {
+            "status": "verified",
+            "npi": "1871653253",
+            "name": "JOE MENDOZA",
+            "aliases": [],
+            "credential": "M.D.",
+            "specialty": "Emergency Medicine, Emergency Medical Services",
+            "license_number": "F7535",
+            "license_state": "TX",
+            "practice_address": "5420 KELL BLVD, WICHITA FALLS, TX 763101610",
+            "enumeration_date": "2006-12-08",
+            "last_updated": "2009-12-11"
+          },
+          "oig_check": {
+            "status": "review",
+            "message": "Possible match found on OIG exclusion list \u2014 human review required",
+            "name_searched": "JOE MENDOZA",
+            "match_score": 82,
+            "matched_entry": {
+              "name": "JOSE MENDEZ",
+              "exclusion_type": "1128a1",
+              "exclusion_date": "20260720",
+              "state": "FL"
+            }
+          },
+          "sam_check": {
+            "status": "clear",
+            "message": "No match found on SAM exclusions list",
+            "names_searched": [
+              "JOE MENDOZA"
+            ],
+            "match_score": 75
+          }
+        }
+      }
+    },
+    {
+      "case_id": "C006",
+      "category": "C",
+      "description": "Ambiguous common names",
+      "input": {
+        "name": "SARAH CONNOR"
+      },
+      "output": {
+        "overall_status": "REQUIRES REVIEW",
+        "npi_status": "verified",
+        "oig_status": "review",
+        "sam_status": "clear",
+        "oig_score": 82,
+        "sam_score": 72,
+        "provider_name": "SARA CONNOR",
+        "full_result": {
+          "npi": "1982135398",
+          "name_searched": "SARA CONNOR",
+          "overall_status": "REQUIRES REVIEW",
+          "provider": {
+            "name": "SARA CONNOR",
+            "credential": "OTR/L",
+            "specialty": "Occupational Therapist",
+            "license_number": "056.011930",
+            "license_state": "IL",
+            "practice_address": "1957 W DICKENS AVE, CHICAGO, IL 606143934",
+            "last_updated": "2017-03-27"
+          },
+          "npi_check": {
+            "status": "verified",
+            "npi": "1982135398",
+            "name": "SARA CONNOR",
+            "aliases": [],
+            "credential": "OTR/L",
+            "specialty": "Occupational Therapist",
+            "license_number": "056.011930",
+            "license_state": "IL",
+            "practice_address": "1957 W DICKENS AVE, CHICAGO, IL 606143934",
+            "enumeration_date": "2017-03-27",
+            "last_updated": "2017-03-27"
+          },
+          "oig_check": {
+            "status": "review",
+            "message": "Possible match found on OIG exclusion list \u2014 human review required",
+            "name_searched": "SARA CONNOR",
+            "match_score": 82,
+            "matched_entry": {
+              "name": "CONNOR SHEA",
+              "exclusion_type": "1128a2",
+              "exclusion_date": "20201119",
+              "state": "MN"
+            }
+          },
+          "sam_check": {
+            "status": "clear",
+            "message": "No match found on SAM exclusions list",
+            "names_searched": [
+              "SARA CONNOR"
+            ],
+            "match_score": 72
+          }
+        }
+      }
+    },
+    {
+      "case_id": "C007",
+      "category": "C",
+      "description": "Ambiguous common names",
+      "input": {
+        "name": "ROBERT SMITH"
+      },
+      "output": {
+        "overall_status": "REQUIRES REVIEW",
+        "npi_status": "verified",
+        "oig_status": "review",
+        "sam_status": "review",
+        "oig_score": 82,
+        "sam_score": 80,
+        "provider_name": "BOBBY SMITH",
+        "full_result": {
+          "npi": "1972186617",
+          "name_searched": "BOBBY SMITH",
+          "overall_status": "REQUIRES REVIEW",
+          "provider": {
+            "name": "BOBBY SMITH",
+            "credential": "",
+            "specialty": "Technician, Personal Care Attendant",
+            "license_number": null,
+            "license_state": null,
+            "practice_address": "1 AVENUE C, MADISON, WV 251301100",
+            "last_updated": "2021-04-30"
+          },
+          "npi_check": {
+            "status": "verified",
+            "npi": "1972186617",
+            "name": "BOBBY SMITH",
+            "aliases": [],
+            "credential": "",
+            "specialty": "Technician, Personal Care Attendant",
+            "license_number": null,
+            "license_state": null,
+            "practice_address": "1 AVENUE C, MADISON, WV 251301100",
+            "enumeration_date": "2021-04-30",
+            "last_updated": "2021-04-30"
+          },
+          "oig_check": {
+            "status": "review",
+            "message": "Possible match found on OIG exclusion list \u2014 human review required",
+            "name_searched": "BOBBY SMITH",
+            "match_score": 82,
+            "matched_entry": {
+              "name": "ROBYN SMITH",
+              "exclusion_type": "1128b4",
+              "exclusion_date": "20020718",
+              "state": "TX"
+            }
+          },
+          "sam_check": {
+            "status": "review",
+            "message": "Possible match found on SAM exclusions list \u2014 human review required",
+            "name_searched": "BOBBY SMITH",
+            "match_score": 80,
+            "matched_entry": {
+              "name": "JOY SMITH",
+              "country": "",
+              "topics": ""
+            }
+          }
+        }
+      }
+    },
+    {
+      "case_id": "C008",
+      "category": "C",
+      "description": "Ambiguous common names",
+      "input": {
+        "name": "JAMES JOHNSON"
+      },
+      "output": {
+        "overall_status": "DO NOT ENGAGE",
+        "npi_status": "verified",
+        "oig_status": "flagged",
+        "sam_status": "review",
+        "oig_score": 96,
+        "sam_score": 92,
+        "provider_name": "JAMIE ALEXANDER",
+        "full_result": {
+          "npi": "1013406313",
+          "name_searched": "JAMIE ALEXANDER",
+          "overall_status": "DO NOT ENGAGE",
+          "provider": {
+            "name": "JAMIE ALEXANDER",
+            "credential": "",
+            "specialty": "Behavior Analyst",
+            "license_number": "1-18-31273",
+            "license_state": "AZ",
+            "practice_address": "1200 N EL DORADO PL STE G700, TUCSON, AZ 857154637",
+            "last_updated": "2021-09-23"
+          },
+          "npi_check": {
+            "status": "verified",
+            "npi": "1013406313",
+            "name": "JAMIE ALEXANDER",
+            "aliases": [
+              "JAMIE JOHNSON"
+            ],
+            "credential": "",
+            "specialty": "Behavior Analyst",
+            "license_number": "1-18-31273",
+            "license_state": "AZ",
+            "practice_address": "1200 N EL DORADO PL STE G700, TUCSON, AZ 857154637",
+            "enumeration_date": "2018-05-02",
+            "last_updated": "2021-09-23"
+          },
+          "oig_check": {
+            "status": "flagged",
+            "message": "High confidence match found on OIG exclusion list",
+            "name_searched": "JAMIE JOHNSON",
+            "match_score": 96,
+            "matched_entry": {
+              "name": "JAMIE JOHNSTON",
+              "exclusion_type": "1128a2",
+              "exclusion_date": "20240320",
+              "state": "CO"
+            }
+          },
+          "sam_check": {
+            "status": "review",
+            "message": "Possible match found on SAM exclusions list \u2014 human review required",
+            "name_searched": "JAMIE JOHNSON",
+            "match_score": 92,
+            "matched_entry": {
+              "name": "James Johnson",
+              "country": "",
+              "topics": ""
+            }
+          }
+        }
+      }
+    },
+    {
+      "case_id": "C009",
+      "category": "C",
+      "description": "Ambiguous common names",
+      "input": {
+        "name": "MARY SMITH"
+      },
+      "output": {
+        "overall_status": "DO NOT ENGAGE",
+        "npi_status": "verified",
+        "oig_status": "flagged",
+        "sam_status": "flagged",
+        "oig_score": 96,
+        "sam_score": 96,
+        "provider_name": "MARIA BAUER",
+        "full_result": {
+          "npi": "1114754124",
+          "name_searched": "MARIA BAUER",
+          "overall_status": "DO NOT ENGAGE",
+          "provider": {
+            "name": "MARIA BAUER",
+            "credential": "RN",
+            "specialty": "Registered Nurse, Gastroenterology",
+            "license_number": "28149337A",
+            "license_state": "IN",
+            "practice_address": "10300 N ILLINOIS ST STE 1300, CARMEL, IN 462901167",
+            "last_updated": "2024-09-30"
+          },
+          "npi_check": {
+            "status": "verified",
+            "npi": "1114754124",
+            "name": "MARIA BAUER",
+            "aliases": [
+              "MARIA SMITH"
+            ],
+            "credential": "RN",
+            "specialty": "Registered Nurse, Gastroenterology",
+            "license_number": "28149337A",
+            "license_state": "IN",
+            "practice_address": "10300 N ILLINOIS ST STE 1300, CARMEL, IN 462901167",
+            "enumeration_date": "2024-09-16",
+            "last_updated": "2024-09-30"
+          },
+          "oig_check": {
+            "status": "flagged",
+            "message": "High confidence match found on OIG exclusion list",
+            "name_searched": "MARIA SMITH",
+            "match_score": 96,
+            "matched_entry": {
+              "name": "MARCIA SMITH",
+              "exclusion_type": "1128a1",
+              "exclusion_date": "19981020",
+              "state": "WA"
+            }
+          },
+          "sam_check": {
+            "status": "flagged",
+            "message": "High confidence match found on SAM exclusions list",
+            "name_searched": "MARIA SMITH",
+            "match_score": 96,
+            "matched_entry": {
+              "name": "MARIKA SMITH",
+              "country": "",
+              "topics": ""
+            }
+          }
+        }
+      }
+    },
+    {
+      "case_id": "C010",
+      "category": "C",
+      "description": "Ambiguous common names",
+      "input": {
+        "name": "MARIA HERNANDEZ"
+      },
+      "output": {
+        "overall_status": "DO NOT ENGAGE",
+        "npi_status": "verified",
+        "oig_status": "flagged",
+        "sam_status": "flagged",
+        "oig_score": 100,
+        "sam_score": 100,
+        "provider_name": "MARIA ALARCON",
+        "full_result": {
+          "npi": "1689302879",
+          "name_searched": "MARIA ALARCON",
+          "overall_status": "DO NOT ENGAGE",
+          "provider": {
+            "name": "MARIA ALARCON",
+            "credential": "LPC",
+            "specialty": "Counselor, Professional",
+            "license_number": "85182",
+            "license_state": "TX",
+            "practice_address": "1601 E YANDELL DR, EL PASO, TX 799025677",
+            "last_updated": "2022-09-12"
+          },
+          "npi_check": {
+            "status": "verified",
+            "npi": "1689302879",
+            "name": "MARIA ALARCON",
+            "aliases": [
+              "MARIA HERNANDEZ"
+            ],
+            "credential": "LPC",
+            "specialty": "Counselor, Professional",
+            "license_number": "85182",
+            "license_state": "TX",
+            "practice_address": "1601 E YANDELL DR, EL PASO, TX 799025677",
+            "enumeration_date": "2022-08-15",
+            "last_updated": "2022-09-12"
+          },
+          "oig_check": {
+            "status": "flagged",
+            "message": "High confidence match found on OIG exclusion list",
+            "name_searched": "MARIA HERNANDEZ",
+            "match_score": 100,
+            "matched_entry": {
+              "name": "MARIA HERNANDEZ",
+              "exclusion_type": "1128b4",
+              "exclusion_date": "20221120",
+              "state": "FL"
+            }
+          },
+          "sam_check": {
+            "status": "flagged",
+            "message": "High confidence match found on SAM exclusions list",
+            "name_searched": "MARIA HERNANDEZ",
+            "match_score": 100,
+            "matched_entry": {
+              "name": "MARIA HERNANDEZ",
+              "country": "",
+              "topics": ""
+            }
+          }
+        }
+      }
+    },
+    {
+      "case_id": "D001",
+      "category": "D",
+      "description": "Malformed NPI with incorrect character length (9 digits)",
+      "input": {
+        "npi": "123456789"
+      },
+      "output": {
+        "overall_status": "UNVERIFIED",
+        "npi_status": "not_found",
+        "oig_status": null,
+        "sam_status": null,
+        "oig_score": null,
+        "sam_score": null,
+        "provider_name": null,
+        "full_result": {
+          "npi": "123456789",
+          "name_searched": null,
+          "overall_status": "UNVERIFIED",
+          "message": "Provider could not be verified in NPI registry",
+          "npi_check": {
+            "status": "not_found",
+            "message": "No provider found"
+          },
+          "oig_check": null,
+          "sam_check": null
+        }
+      }
+    },
+    {
+      "case_id": "D002",
+      "category": "D",
+      "description": "Failed Luhn checksum algorithm validation on 10-digit NPI",
+      "input": {
+        "npi": "1234567890"
+      },
+      "output": {
+        "overall_status": "UNVERIFIED",
+        "npi_status": "not_found",
+        "oig_status": null,
+        "sam_status": null,
+        "oig_score": null,
+        "sam_score": null,
+        "provider_name": null,
+        "full_result": {
+          "npi": "1234567890",
+          "name_searched": null,
+          "overall_status": "UNVERIFIED",
+          "message": "Provider could not be verified in NPI registry",
+          "npi_check": {
+            "status": "not_found",
+            "message": "No provider found"
+          },
+          "oig_check": null,
+          "sam_check": null
+        }
+      }
+    },
+    {
+      "case_id": "D003",
+      "category": "D",
+      "description": "Failed Luhn checksum algorithm validation on 10-digit NPINon-numeric NPI containing alphabetic characters",
+      "input": {
+        "npi": "12345ABC90"
+      },
+      "output": {
+        "overall_status": "UNVERIFIED",
+        "npi_status": "not_found",
+        "oig_status": null,
+        "sam_status": null,
+        "oig_score": null,
+        "sam_score": null,
+        "provider_name": null,
+        "full_result": {
+          "npi": "12345ABC90",
+          "name_searched": null,
+          "overall_status": "UNVERIFIED",
+          "message": "Provider could not be verified in NPI registry",
+          "npi_check": {
+            "status": "not_found",
+            "message": "No provider found"
+          },
+          "oig_check": null,
+          "sam_check": null
+        }
+      }
+    },
+    {
+      "case_id": "D004",
+      "category": "D",
+      "description": "Structurally valid 10-digit NPI not assigned in the registry",
+      "input": {
+        "npi": "9999999999"
+      },
+      "output": {
+        "overall_status": "UNVERIFIED",
+        "npi_status": "not_found",
+        "oig_status": null,
+        "sam_status": null,
+        "oig_score": null,
+        "sam_score": null,
+        "provider_name": null,
+        "full_result": {
+          "npi": "9999999999",
+          "name_searched": null,
+          "overall_status": "UNVERIFIED",
+          "message": "Provider could not be verified in NPI registry",
+          "npi_check": {
+            "status": "not_found",
+            "message": "No provider found"
+          },
+          "oig_check": null,
+          "sam_check": null
+        }
+      }
+    },
+    {
+      "case_id": "D005",
+      "category": "D",
+      "description": "Completely blank payload with null mandatory parameters",
+      "input": {
+        "npi": ""
+      },
+      "output": {
+        "overall_status": "INVALID INPUT",
+        "npi_status": null,
+        "oig_status": null,
+        "sam_status": null,
+        "oig_score": null,
+        "sam_score": null,
+        "provider_name": null,
+        "full_result": {
+          "overall_status": "INVALID INPUT",
+          "message": "No valid NPI or name provided"
+        }
+      }
+    },
+    {
+      "case_id": "D006",
+      "category": "D",
+      "description": "Deactivated or inactive NPI number",
+      "input": {
+        "npi": "1003000010"
+      },
+      "output": {
+        "overall_status": "UNVERIFIED",
+        "npi_status": "not_found",
+        "oig_status": null,
+        "sam_status": null,
+        "oig_score": null,
+        "sam_score": null,
+        "provider_name": null,
+        "full_result": {
+          "npi": "1003000010",
+          "name_searched": null,
+          "overall_status": "UNVERIFIED",
+          "message": "Provider could not be verified in NPI registry",
+          "npi_check": {
+            "status": "not_found",
+            "message": "No provider found"
+          },
+          "oig_check": null,
+          "sam_check": null
+        }
+      }
+    },
+    {
+      "case_id": "D007",
+      "category": "D",
+      "description": "Structurally valid 10-digit NPI not assigned in the registry",
+      "input": {
+        "npi": "0000000000"
+      },
+      "output": {
+        "overall_status": "UNVERIFIED",
+        "npi_status": "not_found",
+        "oig_status": null,
+        "sam_status": null,
+        "oig_score": null,
+        "sam_score": null,
+        "provider_name": null,
+        "full_result": {
+          "npi": "0000000000",
+          "name_searched": null,
+          "overall_status": "UNVERIFIED",
+          "message": "Provider could not be verified in NPI registry",
+          "npi_check": {
+            "status": "not_found",
+            "message": "No provider found"
+          },
+          "oig_check": null,
+          "sam_check": null
+        }
+      }
+    },
+    {
+      "case_id": "D008",
+      "category": "D",
+      "description": "Failed Luhn checksum algorithm validation on 10-digit NPINon-numeric NPI containing alphabetic characters",
+      "input": {
+        "npi": "23456BCD80"
+      },
+      "output": {
+        "overall_status": "UNVERIFIED",
+        "npi_status": "not_found",
+        "oig_status": null,
+        "sam_status": null,
+        "oig_score": null,
+        "sam_score": null,
+        "provider_name": null,
+        "full_result": {
+          "npi": "23456BCD80",
+          "name_searched": null,
+          "overall_status": "UNVERIFIED",
+          "message": "Provider could not be verified in NPI registry",
+          "npi_check": {
+            "status": "not_found",
+            "message": "No provider found"
+          },
+          "oig_check": null,
+          "sam_check": null
+        }
+      }
+    },
+    {
+      "case_id": "D009",
+      "category": "D",
+      "description": "Malformed NPI with incorrect character length (8 digits)",
+      "input": {
+        "npi": "12345678"
+      },
+      "output": {
+        "overall_status": "UNVERIFIED",
+        "npi_status": "not_found",
+        "oig_status": null,
+        "sam_status": null,
+        "oig_score": null,
+        "sam_score": null,
+        "provider_name": null,
+        "full_result": {
+          "npi": "12345678",
+          "name_searched": null,
+          "overall_status": "UNVERIFIED",
+          "message": "Provider could not be verified in NPI registry",
+          "npi_check": {
+            "status": "not_found",
+            "message": "No provider found"
+          },
+          "oig_check": null,
+          "sam_check": null
+        }
+      }
+    },
+    {
+      "case_id": "D010",
+      "category": "D",
+      "description": "Malformed NPI with incorrect character length (7 digits)",
+      "input": {
+        "npi": "1234567"
+      },
+      "output": {
+        "overall_status": "UNVERIFIED",
+        "npi_status": "not_found",
+        "oig_status": null,
+        "sam_status": null,
+        "oig_score": null,
+        "sam_score": null,
+        "provider_name": null,
+        "full_result": {
+          "npi": "1234567",
+          "name_searched": null,
+          "overall_status": "UNVERIFIED",
+          "message": "Provider could not be verified in NPI registry",
+          "npi_check": {
+            "status": "not_found",
+            "message": "No provider found"
+          },
+          "oig_check": null,
+          "sam_check": null
+        }
+      }
+    }
+  ]
+}
