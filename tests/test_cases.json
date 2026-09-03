@@ -38,41 +38,59 @@
     {
       "id": "A001",
       "category": "A",
-      "description": "Randomly sampled \u2014 Psychiatry in NY",
-      "provider_name": "",
+      "description": "Randomly sampled \u2014 Psychiatry in CA",
+      "provider_name": "JOHN AALBERS",
       "input": {
-        "npi": "1598032476"
+        "npi": "1942262431"
       }
     },
     {
       "id": "A002",
       "category": "A",
-      "description": "Randomly sampled \u2014 Oncology in NC",
-      "provider_name": "KAITLYN BUHLINGER",
+      "description": "Randomly sampled \u2014 Anesthesiology in OH",
+      "provider_name": "SUMAYYA ABOOBACKER",
       "input": {
-        "npi": "1104486802"
+        "npi": "1568219848"
       }
     },
     {
       "id": "A003",
       "category": "A",
-      "description": "Randomly sampled \u2014 Family Medicine in TX",
-      "provider_name": "",
+      "description": "Randomly sampled \u2014 Internal Medicine in WA",
+      "provider_name": "AMR ABD-AL-GHAFFAR",
       "input": {
-        "npi": "1700164662"
+        "npi": "1114904323"
       }
     },
     {
       "id": "A004",
       "category": "A",
-      "description": "Randomly sampled \u2014 Internal Medicine in CA",
-      "provider_name": "",
+      "description": "Randomly sampled \u2014 Anesthesiology in NC",
+      "provider_name": "SULEIMAN ABU AFASH",
       "input": {
-        "npi": "1306561030"
+        "npi": "1194711754"
       }
     },
     {
       "id": "A005",
+      "category": "A",
+      "description": "Randomly sampled \u2014 Family Medicine in NC",
+      "provider_name": "ALAIN MICHAEL ABELLADA",
+      "input": {
+        "npi": "1649582685"
+      }
+    },
+    {
+      "id": "A006",
+      "category": "A",
+      "description": "Randomly sampled \u2014 Internal Medicine in WA",
+      "provider_name": "PAUL ABDALLAH",
+      "input": {
+        "npi": "1639166119"
+      }
+    },
+    {
+      "id": "A007",
       "category": "A",
       "description": "Randomly sampled \u2014 Internal Medicine in WA",
       "provider_name": "OMAR ABDELMAKSOUD",
@@ -81,258 +99,420 @@
       }
     },
     {
-      "id": "A006",
-      "category": "A",
-      "description": "Randomly sampled \u2014 Psychiatry in NY",
-      "provider_name": "",
-      "input": {
-        "npi": "1336949171"
-      }
-    },
-    {
-      "id": "A007",
-      "category": "A",
-      "description": "Randomly sampled \u2014 Psychiatry in FL",
-      "provider_name": "",
-      "input": {
-        "npi": "1174197511"
-      }
-    },
-    {
       "id": "A008",
       "category": "A",
-      "description": "Randomly sampled \u2014 Psychiatry in FL",
-      "provider_name": "",
+      "description": "Randomly sampled \u2014 Internal Medicine in OH",
+      "provider_name": "NICOLE ABBOT",
       "input": {
-        "npi": "1417883299"
+        "npi": "1063895522"
       }
     },
     {
       "id": "A009",
       "category": "A",
-      "description": "Randomly sampled \u2014 Oncology in FL",
-      "provider_name": "OLANREWAJU ADEYEMI",
+      "description": "Randomly sampled \u2014 Anesthesiology in FL",
+      "provider_name": "IRA ABELS",
       "input": {
-        "npi": "1295150324"
+        "npi": "1548222573"
       }
     },
     {
       "id": "A010",
       "category": "A",
-      "description": "Randomly sampled \u2014 Anesthesiology in NC",
-      "provider_name": "",
+      "description": "Randomly sampled \u2014 Oncology in NC",
+      "provider_name": "JILL BATES",
       "input": {
-        "npi": "1043080732"
+        "npi": "1932579406"
       }
     },
     {
       "id": "A011",
       "category": "A",
-      "description": "Randomly sampled \u2014 Internal Medicine in WA",
-      "provider_name": "OMODELE ABDULKAREEM",
+      "description": "Randomly sampled \u2014 Anesthesiology in OH",
+      "provider_name": "TAYLOR ABEGG-LAWRENCE",
       "input": {
-        "npi": "1851260467"
+        "npi": "1801356340"
       }
     },
     {
       "id": "A012",
       "category": "A",
-      "description": "Randomly sampled \u2014 Oncology in NC",
-      "provider_name": "MARGARET CAMPBELL",
+      "description": "Randomly sampled \u2014 Oncology in CA",
+      "provider_name": "CHERALYN ADRIAN",
       "input": {
-        "npi": "1215861422"
+        "npi": "1801722327"
       }
     },
     {
       "id": "A013",
       "category": "A",
-      "description": "Randomly sampled \u2014 Family Medicine in TX",
-      "provider_name": "",
+      "description": "Randomly sampled \u2014 Family Medicine in NC",
+      "provider_name": "JENNIFER ABBOTT",
       "input": {
-        "npi": "1437270220"
+        "npi": "1144312604"
       }
     },
     {
       "id": "A014",
       "category": "A",
-      "description": "Randomly sampled \u2014 Internal Medicine in CA",
-      "provider_name": "",
+      "description": "Randomly sampled \u2014 Anesthesiology in NC",
+      "provider_name": "FRANCIS ABDOU",
       "input": {
-        "npi": "1164869780"
+        "npi": "1427150366"
       }
     },
     {
       "id": "A015",
       "category": "A",
-      "description": "Randomly sampled \u2014 Family Medicine in NY",
-      "provider_name": "",
+      "description": "Randomly sampled \u2014 Anesthesiology in OH",
+      "provider_name": "NOUR ABDALLAH HOCHAIMI",
       "input": {
-        "npi": "1194830265"
+        "npi": "1457088007"
       }
     },
     {
       "id": "A016",
       "category": "A",
-      "description": "Randomly sampled \u2014 Family Medicine in NC",
-      "provider_name": "",
+      "description": "Randomly sampled \u2014 Oncology in FL",
+      "provider_name": "NICOLE AROMOLARAN",
       "input": {
-        "npi": "1922960590"
+        "npi": "1457803058"
       }
     },
     {
       "id": "A017",
       "category": "A",
-      "description": "Randomly sampled \u2014 Oncology in NC",
-      "provider_name": "MAURICE ALEXANDER",
+      "description": "Randomly sampled \u2014 Oncology in CA",
+      "provider_name": "LEENA AGRAWAL",
       "input": {
-        "npi": "1710311410"
+        "npi": "1174221634"
       }
     },
     {
       "id": "A018",
       "category": "A",
-      "description": "Randomly sampled \u2014 Anesthesiology in OH",
-      "provider_name": "CHRISTINE ABBOUD",
+      "description": "Randomly sampled \u2014 Anesthesiology in FL",
+      "provider_name": "ANTONIO ABADIA",
       "input": {
-        "npi": "1174901508"
+        "npi": "1912970419"
       }
     },
     {
       "id": "A019",
       "category": "A",
-      "description": "Randomly sampled \u2014 Oncology in CA",
-      "provider_name": "HAMZA ABID",
+      "description": "Randomly sampled \u2014 Psychiatry in NY",
+      "provider_name": "MUHAMMAD AADIL",
       "input": {
-        "npi": "1558891770"
+        "npi": "1366928947"
       }
     },
     {
       "id": "A020",
       "category": "A",
-      "description": "Randomly sampled \u2014 Anesthesiology in NC",
-      "provider_name": "JOSEPH ABRO",
+      "description": "Randomly sampled \u2014 Internal Medicine in WA",
+      "provider_name": "REBECCA ABAY",
       "input": {
-        "npi": "1144630286"
+        "npi": "1528565520"
       }
     },
     {
       "id": "B001",
       "category": "B",
       "description": "Randomly sampled OIG excluded individual",
-      "excluded_name": "KIMBERLY CANADA",
-      "exclusion_type": "1128b4",
-      "exclusion_date": "20240220",
-      "state": "TX",
+      "excluded_name": "SHAN SAWYER",
+      "exclusion_type": "1128a1",
+      "exclusion_date": "19911022",
+      "state": "MI",
       "input": {
-        "name": "KIMBERLY CANADA"
+        "name": "SHAN SAWYER"
       }
     },
     {
       "id": "B002",
       "category": "B",
       "description": "Randomly sampled OIG excluded individual",
-      "excluded_name": "WALDO PASACHE",
-      "exclusion_type": "1128b4",
-      "exclusion_date": "20110220",
+      "excluded_name": "DEAN ARTIAGA",
+      "exclusion_type": "1128a1",
+      "exclusion_date": "20131219",
       "state": "CA",
       "input": {
-        "name": "WALDO PASACHE"
+        "name": "DEAN ARTIAGA"
       }
     },
     {
       "id": "B003",
       "category": "B",
       "description": "Randomly sampled OIG excluded individual",
-      "excluded_name": "TODD WEITZ",
-      "exclusion_type": "1128a2",
-      "exclusion_date": "20010320",
+      "excluded_name": "BARRY COOPER",
+      "exclusion_type": "1128b4",
+      "exclusion_date": "20231120",
       "state": "FL",
       "input": {
-        "name": "TODD WEITZ"
+        "name": "BARRY COOPER"
       }
     },
     {
       "id": "B004",
       "category": "B",
       "description": "Randomly sampled OIG excluded individual",
-      "excluded_name": "ROBERT VANWEY",
-      "exclusion_type": "1128a1",
-      "exclusion_date": "19980720",
-      "state": "OH",
+      "excluded_name": "KIMBERLY MCPHERSON",
+      "exclusion_type": "1128b4",
+      "exclusion_date": "20100120",
+      "state": "MS",
       "input": {
-        "name": "ROBERT VANWEY"
+        "name": "KIMBERLY MCPHERSON"
       }
     },
     {
       "id": "B005",
       "category": "B",
       "description": "Randomly sampled OIG excluded individual",
-      "excluded_name": "LISA ST CLAIR",
-      "exclusion_type": "1128b4",
-      "exclusion_date": "20200618",
-      "state": "KY",
+      "excluded_name": "JENNIE LAHAYE",
+      "exclusion_type": "1128a1",
+      "exclusion_date": "20220420",
+      "state": "SC",
       "input": {
-        "name": "LISA ST CLAIR"
+        "name": "JENNIE LAHAYE"
       }
     },
     {
       "id": "B006",
       "category": "B",
       "description": "Randomly sampled OIG excluded individual",
-      "excluded_name": "MARILYN LEE",
+      "excluded_name": "ROBERT HENRY",
       "exclusion_type": "1128b4",
-      "exclusion_date": "20050818",
-      "state": "AZ",
+      "exclusion_date": "20231120",
+      "state": "FL",
       "input": {
-        "name": "MARILYN LEE"
+        "name": "ROBERT HENRY"
       }
     },
     {
       "id": "B007",
       "category": "B",
       "description": "Randomly sampled OIG excluded individual",
-      "excluded_name": "CAROL HUTTINGER",
+      "excluded_name": "JOHN BOYES",
       "exclusion_type": "1128b4",
-      "exclusion_date": "19990520",
-      "state": "PA",
+      "exclusion_date": "20140820",
+      "state": "AZ",
       "input": {
-        "name": "CAROL HUTTINGER"
+        "name": "JOHN BOYES"
       }
     },
     {
       "id": "B008",
       "category": "B",
       "description": "Randomly sampled OIG excluded individual",
-      "excluded_name": "AMPARO GONZALEZ",
-      "exclusion_type": "1128b4",
-      "exclusion_date": "20041020",
+      "excluded_name": "GUADALUPE HERNANDEZ",
+      "exclusion_type": "1128a1",
+      "exclusion_date": "20170420",
       "state": "CA",
       "input": {
-        "name": "AMPARO GONZALEZ"
+        "name": "GUADALUPE HERNANDEZ"
       }
     },
     {
       "id": "B009",
       "category": "B",
       "description": "Randomly sampled OIG excluded individual",
-      "excluded_name": "JAMES LAZAROWECZ",
-      "exclusion_type": "1128b4",
-      "exclusion_date": "20161220",
+      "excluded_name": "REBECA VELAZCO",
+      "exclusion_type": "1128a1",
+      "exclusion_date": "20050220",
       "state": "FL",
       "input": {
-        "name": "JAMES LAZAROWECZ"
+        "name": "REBECA VELAZCO"
       }
     },
     {
       "id": "B010",
       "category": "B",
       "description": "Randomly sampled OIG excluded individual",
-      "excluded_name": "MICHAEL HENDRICKSON",
+      "excluded_name": "ZUO CAI",
       "exclusion_type": "1128b4",
-      "exclusion_date": "20091220",
-      "state": "WA",
+      "exclusion_date": "20010719",
+      "state": "CA",
       "input": {
-        "name": "MICHAEL HENDRICKSON"
+        "name": "ZUO CAI"
+      }
+    }, 
+    {
+      "id": "C001",
+      "category": "C",
+      "description": "Ambiguous common names",
+      "provider_name": "JOHN SMITH",
+      "input": {
+        "name": "JOHN SMITH"
+      }
+    },
+    {
+      "id": "C002",
+      "category": "C",
+      "description": "Ambiguous common names",
+      "provider_name": "DAVID MILLER",
+      "input": {
+        "name": "DAVID MILLER"
+      }
+    },
+    {
+      "id": "C003",
+      "category": "C",
+      "description": "Ambiguous common names",
+      "provider_name": "MARIA GARCIA-LOPEZ",
+      "input": {
+        "name": "MARIA GARCIA-LOPEZ"
+      }
+    }, 
+    {
+      "id": "C004",
+      "category": "C",
+      "description": "Ambiguous common names",
+      "provider_name": "MICHAEL BROWN",
+      "input": {
+        "name": "MICHAEL BROWN"
+      }
+    },
+    {
+      "id": "C005",
+      "category": "C",
+      "description": "Ambiguous common names",
+      "provider_name": "JOSE MENDOZA",
+      "input": {
+        "name": "JOSE MENDOZA"
+      }
+    },
+    {
+      "id": "C006",
+      "category": "C",
+      "description": "Ambiguous common names",
+      "provider_name": "SARAH CONNOR",
+      "input": {
+        "name": "SARAH CONNOR"
+      }
+    },
+    {
+      "id": "C007",
+      "category": "C",
+      "description": "Ambiguous common names",
+      "provider_name": "ROBERT SMITH",
+      "input": {
+        "name": "ROBERT SMITH"
+      }
+    },
+    {
+      "id": "C008",
+      "category": "C",
+      "description": "Ambiguous common names",
+      "provider_name": "JAMES JOHNSON",
+      "input": {
+        "name": "JAMES JOHNSON"
+      }
+    },
+    {
+      "id": "C009",
+      "category": "C",
+      "description": "Ambiguous common names",
+      "provider_name": "MARY SMITH",
+      "input": {
+        "name": "MARY SMITH"
+      }
+    },
+    {
+      "id": "C010",
+      "category": "C",
+      "description": "Ambiguous common names",
+      "provider_name": "MARIA HERNANDEZ",
+      "input": {
+        "name": "MARIA HERNANDEZ"
+      }
+    },
+    {
+      "id": "D001",
+      "category": "D",
+      "description": "Malformed NPI with incorrect character length (9 digits)",
+      "provider_name": null,
+      "input": {
+        "npi": "123456789"
+      }
+    },
+    {
+      "id": "D002",
+      "category": "D",
+      "description": "Failed Luhn checksum algorithm validation on 10-digit NPI",
+      "provider_name": null,
+      "input": {
+        "npi": "1234567890"
+      }
+    },
+    {
+      "id": "D003",
+      "category": "D",
+      "description": "Failed Luhn checksum algorithm validation on 10-digit NPINon-numeric NPI containing alphabetic characters",
+      "provider_name": null,
+      "input": {
+        "npi": "12345ABC90"
+      }
+    },
+    {
+      "id": "D004",
+      "category": "D",
+      "description": "Structurally valid 10-digit NPI not assigned in the registry",
+      "provider_name": null,
+      "input": {
+        "npi": "9999999999"
+      }
+    },
+    {
+      "id": "D005",
+      "category": "D",
+      "description": "Completely blank payload with null mandatory parameters",
+      "provider_name": null,
+      "input": {
+        "npi": ""
+      }
+    },
+    {
+      "id": "D006",
+      "category": "D",
+      "description": "Deactivated or inactive NPI number",
+      "provider_name": "DOE JANE",
+      "input": {
+        "npi": "1003000010"
+      }
+    },
+    {
+      "id": "D007",
+      "category": "D",
+      "description": "Structurally valid 10-digit NPI not assigned in the registry",
+      "provider_name": null,
+      "input": {
+        "npi": "0000000000"
+      }
+    }, 
+    {
+      "id": "D008",
+      "category": "D",
+      "description": "Failed Luhn checksum algorithm validation on 10-digit NPINon-numeric NPI containing alphabetic characters",
+      "provider_name": null,
+      "input": {
+        "npi": "23456BCD80"
+      }
+    },
+    {
+      "id": "D009",
+      "category": "D",
+      "description": "Malformed NPI with incorrect character length (8 digits)",
+      "provider_name": null,
+      "input": {
+        "npi": "12345678"
+      }
+    },
+    {
+      "id": "D010",
+      "category": "D",
+      "description": "Malformed NPI with incorrect character length (7 digits)",
+      "provider_name": null,
+      "input": {
+        "npi": "1234567"
       }
     }
   ]

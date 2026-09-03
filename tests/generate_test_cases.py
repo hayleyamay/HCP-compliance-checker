@@ -39,16 +39,21 @@ def fetch_npis(specialty, state, limit=20):
         response = requests.get(url, timeout=10)
         data = response.json()
         results = data.get("results", [])
-        return [
-            {
-                "npi": r["number"],
-                "name": f"{r['basic'].get('first_name', '')} {r['basic'].get('last_name', '')}".strip(),
-                "specialty": specialty,
-                "state": state
-            }
-            for r in results
-            if r.get("number")
-        ]
+        providers = []
+        for r in results:
+            first = r["basic"].get("first_name", "").strip()
+            last = r["basic"].get("last_name", "").strip()
+            full_name = f"{first} {last}".strip()
+    
+            if r.get("number") and full_name:
+                providers.append({
+                    "npi": r["number"],
+                    "name": full_name,
+                    "specialty": specialty,
+                    "state": state
+                })
+
+        return providers
     except Exception as e:
         print(f"Error fetching {specialty} in {state}: {e}")
         return []
@@ -156,3 +161,4 @@ if __name__ == "__main__":
     print("  1. Run pipeline against Category A cases")
     print("  2. Manually verify Category B names against OIG list")
     print("  3. Add Category C and D cases manually")
+    #CATEGORIES C & D WERE CREATED MANUALLY WITHIN .JSON FILE
