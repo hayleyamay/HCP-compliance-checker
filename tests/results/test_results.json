@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "run_at": "2026-09-03T15:27:21.535579",
+    "run_at": "2026-09-05T11:34:21.497344",
     "total_cases": 50,
     "categories": {
       "A": 20,
@@ -442,9 +442,9 @@
         "npi": "1063895522"
       },
       "output": {
-        "overall_status": "DO NOT ENGAGE",
+        "overall_status": "REQUIRES REVIEW",
         "npi_status": "verified",
-        "oig_status": "flagged",
+        "oig_status": "review",
         "sam_status": "clear",
         "oig_score": 96,
         "sam_score": 77,
@@ -452,7 +452,7 @@
         "full_result": {
           "npi": "1063895522",
           "name_searched": "NICOLE ABBOT",
-          "overall_status": "DO NOT ENGAGE",
+          "overall_status": "REQUIRES REVIEW",
           "provider": {
             "name": "NICOLE ABBOT",
             "credential": "MD",
@@ -478,8 +478,8 @@
             "last_updated": "2026-08-06"
           },
           "oig_check": {
-            "status": "flagged",
-            "message": "High confidence match found on OIG exclusion list",
+            "status": "review",
+            "message": "Possible match found on OIG exclusion list \u2014 human review required",
             "name_searched": "NICOLE ABBOT",
             "match_score": 96,
             "matched_entry": {
@@ -2257,9 +2257,9 @@
         "name": "JAMES JOHNSON"
       },
       "output": {
-        "overall_status": "DO NOT ENGAGE",
+        "overall_status": "REQUIRES REVIEW",
         "npi_status": "verified",
-        "oig_status": "flagged",
+        "oig_status": "review",
         "sam_status": "review",
         "oig_score": 96,
         "sam_score": 92,
@@ -2267,7 +2267,7 @@
         "full_result": {
           "npi": "1013406313",
           "name_searched": "JAMIE ALEXANDER",
-          "overall_status": "DO NOT ENGAGE",
+          "overall_status": "REQUIRES REVIEW",
           "provider": {
             "name": "JAMIE ALEXANDER",
             "credential": "",
@@ -2293,8 +2293,8 @@
             "last_updated": "2021-09-23"
           },
           "oig_check": {
-            "status": "flagged",
-            "message": "High confidence match found on OIG exclusion list",
+            "status": "review",
+            "message": "Possible match found on OIG exclusion list \u2014 human review required",
             "name_searched": "JAMIE JOHNSON",
             "match_score": 96,
             "matched_entry": {
@@ -2326,17 +2326,17 @@
         "name": "MARY SMITH"
       },
       "output": {
-        "overall_status": "DO NOT ENGAGE",
+        "overall_status": "REQUIRES REVIEW",
         "npi_status": "verified",
-        "oig_status": "flagged",
-        "sam_status": "flagged",
+        "oig_status": "review",
+        "sam_status": "review",
         "oig_score": 96,
         "sam_score": 96,
         "provider_name": "MARIA BAUER",
         "full_result": {
           "npi": "1114754124",
           "name_searched": "MARIA BAUER",
-          "overall_status": "DO NOT ENGAGE",
+          "overall_status": "REQUIRES REVIEW",
           "provider": {
             "name": "MARIA BAUER",
             "credential": "RN",
@@ -2362,8 +2362,8 @@
             "last_updated": "2024-09-30"
           },
           "oig_check": {
-            "status": "flagged",
-            "message": "High confidence match found on OIG exclusion list",
+            "status": "review",
+            "message": "Possible match found on OIG exclusion list \u2014 human review required",
             "name_searched": "MARIA SMITH",
             "match_score": 96,
             "matched_entry": {
@@ -2374,8 +2374,8 @@
             }
           },
           "sam_check": {
-            "status": "flagged",
-            "message": "High confidence match found on SAM exclusions list",
+            "status": "review",
+            "message": "Possible match found on SAM exclusions list \u2014 human review required",
             "name_searched": "MARIA SMITH",
             "match_score": 96,
             "matched_entry": {

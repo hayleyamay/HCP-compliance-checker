@@ -41,7 +41,7 @@ def check_sam(name, sam_list, aliases=None):
                 best_match = entry
                 best_name_searched = search_name
 
-    if best_score >= 95:
+    if best_score >= 98:
         return {
             "status": "flagged",
             "message": "High confidence match found on SAM exclusions list",
