@@ -1,0 +1,1116 @@
+{
+  "metadata": {
+    "description": "Full suite evaluation comparing Token Sort Ratio vs Jaro-Winkler across all categories",
+    "total_cases_evaluated": 50,
+    "flagged_threshold": 98,
+    "review_threshold": 80,
+    "oig_records_searched": 83842
+  },
+  "category_summary": {
+    "A": {
+      "total_cases": 20,
+      "tsr_flagged_or_review": 9,
+      "jw_flagged_or_review": 16
+    },
+    "B": {
+      "total_cases": 10,
+      "tsr_flagged_or_review": 10,
+      "jw_flagged_or_review": 10
+    },
+    "C": {
+      "total_cases": 10,
+      "tsr_flagged_or_review": 10,
+      "jw_flagged_or_review": 10
+    },
+    "D": {
+      "total_cases": 10,
+      "tsr_flagged_or_review": 0,
+      "jw_flagged_or_review": 0
+    }
+  },
+  "results": [
+    {
+      "case_id": "",
+      "category": "A",
+      "input": {
+        "npi": "1942262431"
+      },
+      "resolved_names": [
+        "JOHN AALBERS"
+      ],
+      "status": "OK",
+      "token_sort_ratio": {
+        "score": 78,
+        "classification": "clear",
+        "best_match": "JOHN BOWERS"
+      },
+      "jaro_winkler": {
+        "score": 91.36,
+        "classification": "review",
+        "best_match": "JOHN BOWERS"
+      },
+      "agreement": false
+    },
+    {
+      "case_id": "",
+      "category": "A",
+      "input": {
+        "npi": "1568219848"
+      },
+      "resolved_names": [
+        "SUMAYYA ABOOBACKER"
+      ],
+      "status": "OK",
+      "token_sort_ratio": {
+        "score": 69,
+        "classification": "clear",
+        "best_match": "ZSAMARA BOOKER"
+      },
+      "jaro_winkler": {
+        "score": 78.86,
+        "classification": "clear",
+        "best_match": "SUSAN BAKER"
+      },
+      "agreement": true
+    },
+    {
+      "case_id": "",
+      "category": "A",
+      "input": {
+        "npi": "1114904323"
+      },
+      "resolved_names": [
+        "AMR ABD-AL-GHAFFAR"
+      ],
+      "status": "OK",
+      "token_sort_ratio": {
+        "score": 63,
+        "classification": "clear",
+        "best_match": "ABDOL ARJMANDFARD"
+      },
+      "jaro_winkler": {
+        "score": 78.37,
+        "classification": "clear",
+        "best_match": "AMANDA BLAIR"
+      },
+      "agreement": true
+    },
+    {
+      "case_id": "",
+      "category": "A",
+      "input": {
+        "npi": "1194711754"
+      },
+      "resolved_names": [
+        "SULEIMAN ABU AFASH"
+      ],
+      "status": "OK",
+      "token_sort_ratio": {
+        "score": 65,
+        "classification": "clear",
+        "best_match": "IHAB SULAIMAN"
+      },
+      "jaro_winkler": {
+        "score": 78.86,
+        "classification": "clear",
+        "best_match": "SUZANNE ASH"
+      },
+      "agreement": true
+    },
+    {
+      "case_id": "",
+      "category": "A",
+      "input": {
+        "npi": "1649582685"
+      },
+      "resolved_names": [
+        "ALAIN MICHAEL ABELLADA"
+      ],
+      "status": "OK",
+      "token_sort_ratio": {
+        "score": 70,
+        "classification": "clear",
+        "best_match": "MICHAEL HELLMAN"
+      },
+      "jaro_winkler": {
+        "score": 85.76,
+        "classification": "review",
+        "best_match": "ALAIN MORELL"
+      },
+      "agreement": false
+    },
+    {
+      "case_id": "",
+      "category": "A",
+      "input": {
+        "npi": "1639166119"
+      },
+      "resolved_names": [
+        "PAUL ABDALLAH"
+      ],
+      "status": "OK",
+      "token_sort_ratio": {
+        "score": 89,
+        "classification": "review",
+        "best_match": "PAULA ABDULLAH"
+      },
+      "jaro_winkler": {
+        "score": 95.49,
+        "classification": "review",
+        "best_match": "PAULA ABDULLAH"
+      },
+      "agreement": true
+    },
+    {
+      "case_id": "",
+      "category": "A",
+      "input": {
+        "npi": "1083391429"
+      },
+      "resolved_names": [
+        "OMAR ABDELMAKSOUD"
+      ],
+      "status": "OK",
+      "token_sort_ratio": {
+        "score": 76,
+        "classification": "clear",
+        "best_match": "OMAR MASSOUD"
+      },
+      "jaro_winkler": {
+        "score": 91.12,
+        "classification": "review",
+        "best_match": "OMAR ALMUSA"
+      },
+      "agreement": false
+    },
+    {
+      "case_id": "",
+      "category": "A",
+      "input": {
+        "npi": "1063895522"
+      },
+      "resolved_names": [
+        "NICOLE ABBOT",
+        "NICOLE ABBOT"
+      ],
+      "status": "OK",
+      "token_sort_ratio": {
+        "score": 96,
+        "classification": "review",
+        "best_match": "NICOLE ABBOTT"
+      },
+      "jaro_winkler": {
+        "score": 98.46,
+        "classification": "flagged",
+        "best_match": "NICOLE ABBOTT"
+      },
+      "agreement": false
+    },
+    {
+      "case_id": "",
+      "category": "A",
+      "input": {
+        "npi": "1548222573"
+      },
+      "resolved_names": [
+        "IRA ABELS"
+      ],
+      "status": "OK",
+      "token_sort_ratio": {
+        "score": 82,
+        "classification": "review",
+        "best_match": "IRA BELL"
+      },
+      "jaro_winkler": {
+        "score": 91.9,
+        "classification": "review",
+        "best_match": "IRA BELL"
+      },
+      "agreement": true
+    },
+    {
+      "case_id": "",
+      "category": "A",
+      "input": {
+        "npi": "1932579406"
+      },
+      "resolved_names": [
+        "JILL BATES",
+        "JILL SCHURMANN"
+      ],
+      "status": "OK",
+      "token_sort_ratio": {
+        "score": 80,
+        "classification": "review",
+        "best_match": "JILL BAKER"
+      },
+      "jaro_winkler": {
+        "score": 92.14,
+        "classification": "review",
+        "best_match": "JILL MATSEL"
+      },
+      "agreement": true
+    },
+    {
+      "case_id": "",
+      "category": "A",
+      "input": {
+        "npi": "1801356340"
+      },
+      "resolved_names": [
+        "TAYLOR ABEGG-LAWRENCE"
+      ],
+      "status": "OK",
+      "token_sort_ratio": {
+        "score": 74,
+        "classification": "clear",
+        "best_match": "LAWRENCE TYLER"
+      },
+      "jaro_winkler": {
+        "score": 88.81,
+        "classification": "review",
+        "best_match": "TAYLOR ZABEL"
+      },
+      "agreement": false
+    },
+    {
+      "case_id": "",
+      "category": "A",
+      "input": {
+        "npi": "1801722327"
+      },
+      "resolved_names": [
+        "CHERALYN ADRIAN",
+        "CHERIE ADRIAN"
+      ],
+      "status": "OK",
+      "token_sort_ratio": {
+        "score": 81,
+        "classification": "review",
+        "best_match": "ADRIAN COHEN"
+      },
+      "jaro_winkler": {
+        "score": 90.77,
+        "classification": "review",
+        "best_match": "CHERIE DILLON"
+      },
+      "agreement": true
+    },
+    {
+      "case_id": "",
+      "category": "A",
+      "input": {
+        "npi": "1144312604"
+      },
+      "resolved_names": [
+        "JENNIFER ABBOTT"
+      ],
+      "status": "OK",
+      "token_sort_ratio": {
+        "score": 83,
+        "classification": "review",
+        "best_match": "JENNIFER BETTS"
+      },
+      "jaro_winkler": {
+        "score": 93.14,
+        "classification": "review",
+        "best_match": "JENNIFER BETTS"
+      },
+      "agreement": true
+    },
+    {
+      "case_id": "",
+      "category": "A",
+      "input": {
+        "npi": "1427150366"
+      },
+      "resolved_names": [
+        "FRANCIS ABDOU"
+      ],
+      "status": "OK",
+      "token_sort_ratio": {
+        "score": 77,
+        "classification": "clear",
+        "best_match": "FRANCIS BROWN"
+      },
+      "jaro_winkler": {
+        "score": 93.44,
+        "classification": "review",
+        "best_match": "FRANCIS UDOH"
+      },
+      "agreement": false
+    },
+    {
+      "case_id": "",
+      "category": "A",
+      "input": {
+        "npi": "1457088007"
+      },
+      "resolved_names": [
+        "NOUR ABDALLAH HOCHAIMI"
+      ],
+      "status": "OK",
+      "token_sort_ratio": {
+        "score": 65,
+        "classification": "clear",
+        "best_match": "MOHAMED ABDALLA"
+      },
+      "jaro_winkler": {
+        "score": 77.31,
+        "classification": "clear",
+        "best_match": "KIAN ABDOLLAHI"
+      },
+      "agreement": true
+    },
+    {
+      "case_id": "",
+      "category": "A",
+      "input": {
+        "npi": "1457803058"
+      },
+      "resolved_names": [
+        "NICOLE AROMOLARAN"
+      ],
+      "status": "OK",
+      "token_sort_ratio": {
+        "score": 77,
+        "classification": "clear",
+        "best_match": "NICOLE HARTMAN"
+      },
+      "jaro_winkler": {
+        "score": 91.26,
+        "classification": "review",
+        "best_match": "NICOLE HARTMAN"
+      },
+      "agreement": false
+    },
+    {
+      "case_id": "",
+      "category": "A",
+      "input": {
+        "npi": "1174221634"
+      },
+      "resolved_names": [
+        "LEENA AGRAWAL"
+      ],
+      "status": "OK",
+      "token_sort_ratio": {
+        "score": 76,
+        "classification": "clear",
+        "best_match": "NARENDRA AGRAWAL"
+      },
+      "jaro_winkler": {
+        "score": 84.88,
+        "classification": "review",
+        "best_match": "LEE ANNA BALLARD"
+      },
+      "agreement": false
+    },
+    {
+      "case_id": "",
+      "category": "A",
+      "input": {
+        "npi": "1912970419"
+      },
+      "resolved_names": [
+        "ANTONIO ABADIA"
+      ],
+      "status": "OK",
+      "token_sort_ratio": {
+        "score": 81,
+        "classification": "review",
+        "best_match": "ANTONIO ADAME"
+      },
+      "jaro_winkler": {
+        "score": 90.82,
+        "classification": "review",
+        "best_match": "ANTONIO ADAME"
+      },
+      "agreement": true
+    },
+    {
+      "case_id": "",
+      "category": "A",
+      "input": {
+        "npi": "1366928947"
+      },
+      "resolved_names": [
+        "MUHAMMAD AADIL"
+      ],
+      "status": "OK",
+      "token_sort_ratio": {
+        "score": 86,
+        "classification": "review",
+        "best_match": "MUHAMMAD AAMIR"
+      },
+      "jaro_winkler": {
+        "score": 95.48,
+        "classification": "review",
+        "best_match": "MUHAMMAD ALI"
+      },
+      "agreement": true
+    },
+    {
+      "case_id": "",
+      "category": "A",
+      "input": {
+        "npi": "1528565520"
+      },
+      "resolved_names": [
+        "REBECCA ABAY"
+      ],
+      "status": "OK",
+      "token_sort_ratio": {
+        "score": 88,
+        "classification": "review",
+        "best_match": "REBECCA BANEY"
+      },
+      "jaro_winkler": {
+        "score": 95.26,
+        "classification": "review",
+        "best_match": "REBECCA DARBY"
+      },
+      "agreement": true
+    },
+    {
+      "case_id": "",
+      "category": "B",
+      "input": {
+        "name": "SHAN SAWYER"
+      },
+      "resolved_names": [
+        "SHAN SAWYER"
+      ],
+      "status": "OK",
+      "token_sort_ratio": {
+        "score": 100,
+        "classification": "flagged",
+        "best_match": "SHAN SAWYER"
+      },
+      "jaro_winkler": {
+        "score": 100.0,
+        "classification": "flagged",
+        "best_match": "SHAN SAWYER"
+      },
+      "agreement": true
+    },
+    {
+      "case_id": "",
+      "category": "B",
+      "input": {
+        "name": "DEAN ARTIAGA"
+      },
+      "resolved_names": [
+        "DEAN ARTIAGA"
+      ],
+      "status": "OK",
+      "token_sort_ratio": {
+        "score": 100,
+        "classification": "flagged",
+        "best_match": "DEAN ARTIAGA"
+      },
+      "jaro_winkler": {
+        "score": 100.0,
+        "classification": "flagged",
+        "best_match": "DEAN ARTIAGA"
+      },
+      "agreement": true
+    },
+    {
+      "case_id": "",
+      "category": "B",
+      "input": {
+        "name": "BARRY COOPER"
+      },
+      "resolved_names": [
+        "BARRY COOPER"
+      ],
+      "status": "OK",
+      "token_sort_ratio": {
+        "score": 100,
+        "classification": "flagged",
+        "best_match": "BARRY COOPER"
+      },
+      "jaro_winkler": {
+        "score": 100.0,
+        "classification": "flagged",
+        "best_match": "BARRY COOPER"
+      },
+      "agreement": true
+    },
+    {
+      "case_id": "",
+      "category": "B",
+      "input": {
+        "name": "KIMBERLY MCPHERSON"
+      },
+      "resolved_names": [
+        "KIMBERLY MCPHERSON"
+      ],
+      "status": "OK",
+      "token_sort_ratio": {
+        "score": 100,
+        "classification": "flagged",
+        "best_match": "KIMBERLY MCPHERSON"
+      },
+      "jaro_winkler": {
+        "score": 100.0,
+        "classification": "flagged",
+        "best_match": "KIMBERLY MCPHERSON"
+      },
+      "agreement": true
+    },
+    {
+      "case_id": "",
+      "category": "B",
+      "input": {
+        "name": "JENNIE LAHAYE"
+      },
+      "resolved_names": [
+        "JENNIE LAHAYE"
+      ],
+      "status": "OK",
+      "token_sort_ratio": {
+        "score": 100,
+        "classification": "flagged",
+        "best_match": "JENNIE LAHAYE"
+      },
+      "jaro_winkler": {
+        "score": 100.0,
+        "classification": "flagged",
+        "best_match": "JENNIE LAHAYE"
+      },
+      "agreement": true
+    },
+    {
+      "case_id": "",
+      "category": "B",
+      "input": {
+        "name": "ROBERT HENRY"
+      },
+      "resolved_names": [
+        "ROBERT HENRY"
+      ],
+      "status": "OK",
+      "token_sort_ratio": {
+        "score": 100,
+        "classification": "flagged",
+        "best_match": "ROBERT HENRY"
+      },
+      "jaro_winkler": {
+        "score": 100.0,
+        "classification": "flagged",
+        "best_match": "ROBERT HENRY"
+      },
+      "agreement": true
+    },
+    {
+      "case_id": "",
+      "category": "B",
+      "input": {
+        "name": "JOHN BOYES"
+      },
+      "resolved_names": [
+        "JOHN BOYES"
+      ],
+      "status": "OK",
+      "token_sort_ratio": {
+        "score": 100,
+        "classification": "flagged",
+        "best_match": "JOHN BOYES"
+      },
+      "jaro_winkler": {
+        "score": 100.0,
+        "classification": "flagged",
+        "best_match": "JOHN BOYES"
+      },
+      "agreement": true
+    },
+    {
+      "case_id": "",
+      "category": "B",
+      "input": {
+        "name": "GUADALUPE HERNANDEZ"
+      },
+      "resolved_names": [
+        "GUADALUPE HERNANDEZ"
+      ],
+      "status": "OK",
+      "token_sort_ratio": {
+        "score": 100,
+        "classification": "flagged",
+        "best_match": "GUADALUPE HERNANDEZ"
+      },
+      "jaro_winkler": {
+        "score": 100.0,
+        "classification": "flagged",
+        "best_match": "GUADALUPE HERNANDEZ"
+      },
+      "agreement": true
+    },
+    {
+      "case_id": "",
+      "category": "B",
+      "input": {
+        "name": "REBECA VELAZCO"
+      },
+      "resolved_names": [
+        "REBECA VELAZCO"
+      ],
+      "status": "OK",
+      "token_sort_ratio": {
+        "score": 100,
+        "classification": "flagged",
+        "best_match": "REBECA VELAZCO"
+      },
+      "jaro_winkler": {
+        "score": 100.0,
+        "classification": "flagged",
+        "best_match": "REBECA VELAZCO"
+      },
+      "agreement": true
+    },
+    {
+      "case_id": "",
+      "category": "B",
+      "input": {
+        "name": "ZUO CAI"
+      },
+      "resolved_names": [
+        "ZUO CAI"
+      ],
+      "status": "OK",
+      "token_sort_ratio": {
+        "score": 100,
+        "classification": "flagged",
+        "best_match": "ZUO CAI"
+      },
+      "jaro_winkler": {
+        "score": 100.0,
+        "classification": "flagged",
+        "best_match": "ZUO CAI"
+      },
+      "agreement": true
+    },
+    {
+      "case_id": "",
+      "category": "C",
+      "input": {
+        "name": "JOHN SMITH"
+      },
+      "resolved_names": [
+        "JOHN SMITH"
+      ],
+      "status": "OK",
+      "token_sort_ratio": {
+        "score": 100,
+        "classification": "flagged",
+        "best_match": "JOHN SMITH"
+      },
+      "jaro_winkler": {
+        "score": 100.0,
+        "classification": "flagged",
+        "best_match": "JOHN SMITH"
+      },
+      "agreement": true
+    },
+    {
+      "case_id": "",
+      "category": "C",
+      "input": {
+        "name": "DAVID MILLER"
+      },
+      "resolved_names": [
+        "DAVID MILLER"
+      ],
+      "status": "OK",
+      "token_sort_ratio": {
+        "score": 100,
+        "classification": "flagged",
+        "best_match": "DAVID MILLER"
+      },
+      "jaro_winkler": {
+        "score": 100.0,
+        "classification": "flagged",
+        "best_match": "DAVID MILLER"
+      },
+      "agreement": true
+    },
+    {
+      "case_id": "",
+      "category": "C",
+      "input": {
+        "name": "MARIA GARCIA-LOPEZ"
+      },
+      "resolved_names": [
+        "MARIA GARCIA-LOPEZ"
+      ],
+      "status": "OK",
+      "token_sort_ratio": {
+        "score": 80,
+        "classification": "review",
+        "best_match": "MARIA GARCIA"
+      },
+      "jaro_winkler": {
+        "score": 93.33,
+        "classification": "review",
+        "best_match": "MARIA GARCIA"
+      },
+      "agreement": true
+    },
+    {
+      "case_id": "",
+      "category": "C",
+      "input": {
+        "name": "MICHAEL BROWN"
+      },
+      "resolved_names": [
+        "MICHAEL BROWN"
+      ],
+      "status": "OK",
+      "token_sort_ratio": {
+        "score": 100,
+        "classification": "flagged",
+        "best_match": "MICHAEL BROWN"
+      },
+      "jaro_winkler": {
+        "score": 100.0,
+        "classification": "flagged",
+        "best_match": "MICHAEL BROWN"
+      },
+      "agreement": true
+    },
+    {
+      "case_id": "",
+      "category": "C",
+      "input": {
+        "name": "JOSE MENDOZA"
+      },
+      "resolved_names": [
+        "JOSE MENDOZA"
+      ],
+      "status": "OK",
+      "token_sort_ratio": {
+        "score": 87,
+        "classification": "review",
+        "best_match": "JOSE MENDEZ"
+      },
+      "jaro_winkler": {
+        "score": 94.85,
+        "classification": "review",
+        "best_match": "JOSE MENDEZ"
+      },
+      "agreement": true
+    },
+    {
+      "case_id": "",
+      "category": "C",
+      "input": {
+        "name": "SARAH CONNOR"
+      },
+      "resolved_names": [
+        "SARAH CONNOR"
+      ],
+      "status": "OK",
+      "token_sort_ratio": {
+        "score": 83,
+        "classification": "review",
+        "best_match": "SARAH CANNON"
+      },
+      "jaro_winkler": {
+        "score": 93.33,
+        "classification": "review",
+        "best_match": "SARAH COOPER"
+      },
+      "agreement": true
+    },
+    {
+      "case_id": "",
+      "category": "C",
+      "input": {
+        "name": "ROBERT SMITH"
+      },
+      "resolved_names": [
+        "ROBERT SMITH"
+      ],
+      "status": "OK",
+      "token_sort_ratio": {
+        "score": 100,
+        "classification": "flagged",
+        "best_match": "ROBERT SMITH"
+      },
+      "jaro_winkler": {
+        "score": 100.0,
+        "classification": "flagged",
+        "best_match": "ROBERT SMITH"
+      },
+      "agreement": true
+    },
+    {
+      "case_id": "",
+      "category": "C",
+      "input": {
+        "name": "JAMES JOHNSON"
+      },
+      "resolved_names": [
+        "JAMES JOHNSON"
+      ],
+      "status": "OK",
+      "token_sort_ratio": {
+        "score": 100,
+        "classification": "flagged",
+        "best_match": "JAMES JOHNSON"
+      },
+      "jaro_winkler": {
+        "score": 100.0,
+        "classification": "flagged",
+        "best_match": "JAMES JOHNSON"
+      },
+      "agreement": true
+    },
+    {
+      "case_id": "",
+      "category": "C",
+      "input": {
+        "name": "MARY SMITH"
+      },
+      "resolved_names": [
+        "MARY SMITH"
+      ],
+      "status": "OK",
+      "token_sort_ratio": {
+        "score": 100,
+        "classification": "flagged",
+        "best_match": "MARY SMITH"
+      },
+      "jaro_winkler": {
+        "score": 100.0,
+        "classification": "flagged",
+        "best_match": "MARY SMITH"
+      },
+      "agreement": true
+    },
+    {
+      "case_id": "",
+      "category": "C",
+      "input": {
+        "name": "MARIA HERNANDEZ"
+      },
+      "resolved_names": [
+        "MARIA HERNANDEZ"
+      ],
+      "status": "OK",
+      "token_sort_ratio": {
+        "score": 100,
+        "classification": "flagged",
+        "best_match": "MARIA HERNANDEZ"
+      },
+      "jaro_winkler": {
+        "score": 100.0,
+        "classification": "flagged",
+        "best_match": "MARIA HERNANDEZ"
+      },
+      "agreement": true
+    },
+    {
+      "case_id": "",
+      "category": "D",
+      "input": {
+        "npi": "123456789"
+      },
+      "resolved_names": [],
+      "status": "UNVERIFIED",
+      "token_sort_ratio": {
+        "score": 0,
+        "classification": "unverified",
+        "best_match": null
+      },
+      "jaro_winkler": {
+        "score": 0,
+        "classification": "unverified",
+        "best_match": null
+      },
+      "agreement": true
+    },
+    {
+      "case_id": "",
+      "category": "D",
+      "input": {
+        "npi": "1234567890"
+      },
+      "resolved_names": [],
+      "status": "UNVERIFIED",
+      "token_sort_ratio": {
+        "score": 0,
+        "classification": "unverified",
+        "best_match": null
+      },
+      "jaro_winkler": {
+        "score": 0,
+        "classification": "unverified",
+        "best_match": null
+      },
+      "agreement": true
+    },
+    {
+      "case_id": "",
+      "category": "D",
+      "input": {
+        "npi": "12345ABC90"
+      },
+      "resolved_names": [],
+      "status": "UNVERIFIED",
+      "token_sort_ratio": {
+        "score": 0,
+        "classification": "unverified",
+        "best_match": null
+      },
+      "jaro_winkler": {
+        "score": 0,
+        "classification": "unverified",
+        "best_match": null
+      },
+      "agreement": true
+    },
+    {
+      "case_id": "",
+      "category": "D",
+      "input": {
+        "npi": "9999999999"
+      },
+      "resolved_names": [],
+      "status": "UNVERIFIED",
+      "token_sort_ratio": {
+        "score": 0,
+        "classification": "unverified",
+        "best_match": null
+      },
+      "jaro_winkler": {
+        "score": 0,
+        "classification": "unverified",
+        "best_match": null
+      },
+      "agreement": true
+    },
+    {
+      "case_id": "",
+      "category": "D",
+      "input": {
+        "npi": ""
+      },
+      "resolved_names": [],
+      "status": "UNVERIFIED",
+      "token_sort_ratio": {
+        "score": 0,
+        "classification": "unverified",
+        "best_match": null
+      },
+      "jaro_winkler": {
+        "score": 0,
+        "classification": "unverified",
+        "best_match": null
+      },
+      "agreement": true
+    },
+    {
+      "case_id": "",
+      "category": "D",
+      "input": {
+        "npi": "1003000010"
+      },
+      "resolved_names": [],
+      "status": "UNVERIFIED",
+      "token_sort_ratio": {
+        "score": 0,
+        "classification": "unverified",
+        "best_match": null
+      },
+      "jaro_winkler": {
+        "score": 0,
+        "classification": "unverified",
+        "best_match": null
+      },
+      "agreement": true
+    },
+    {
+      "case_id": "",
+      "category": "D",
+      "input": {
+        "npi": "0000000000"
+      },
+      "resolved_names": [],
+      "status": "UNVERIFIED",
+      "token_sort_ratio": {
+        "score": 0,
+        "classification": "unverified",
+        "best_match": null
+      },
+      "jaro_winkler": {
+        "score": 0,
+        "classification": "unverified",
+        "best_match": null
+      },
+      "agreement": true
+    },
+    {
+      "case_id": "",
+      "category": "D",
+      "input": {
+        "npi": "23456BCD80"
+      },
+      "resolved_names": [],
+      "status": "UNVERIFIED",
+      "token_sort_ratio": {
+        "score": 0,
+        "classification": "unverified",
+        "best_match": null
+      },
+      "jaro_winkler": {
+        "score": 0,
+        "classification": "unverified",
+        "best_match": null
+      },
+      "agreement": true
+    },
+    {
+      "case_id": "",
+      "category": "D",
+      "input": {
+        "npi": "12345678"
+      },
+      "resolved_names": [],
+      "status": "UNVERIFIED",
+      "token_sort_ratio": {
+        "score": 0,
+        "classification": "unverified",
+        "best_match": null
+      },
+      "jaro_winkler": {
+        "score": 0,
+        "classification": "unverified",
+        "best_match": null
+      },
+      "agreement": true
+    },
+    {
+      "case_id": "",
+      "category": "D",
+      "input": {
+        "npi": "1234567"
+      },
+      "resolved_names": [],
+      "status": "UNVERIFIED",
+      "token_sort_ratio": {
+        "score": 0,
+        "classification": "unverified",
+        "best_match": null
+      },
+      "jaro_winkler": {
+        "score": 0,
+        "classification": "unverified",
+        "best_match": null
+      },
+      "agreement": true
+    }
+  ]
+}

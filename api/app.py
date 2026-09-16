@@ -21,22 +21,27 @@ def health():
 @app.route("/verify", methods=["POST"])
 def verify():
     data = request.get_json()
-    
-    if not data or "npi" not in data:
+
+    if not data or ("npi" not in data and "name" not in data):
         return jsonify({
-            "error": "NPI number required",
-            "example": {"npi": "1003000126"}
+            "error": "Either NPI number or provider name required",
+            "examples": {
+                "by_npi": {"npi": "1003000126"},
+                "by_name": {"name": "JOHN SMITH"},
+                "both": {"npi": "1003000126", "name": "ARDALAN ENKESHAFI"}
+            }
         }), 400
-    
-    npi = data["npi"].strip()
-    
-    if len(npi) != 10 or not npi.isdigit():
+
+    npi = data.get("npi", "").strip() if data.get("npi") else None
+    name = data.get("name", "").strip() if data.get("name") else None
+
+    if npi and (len(npi) != 10 or not npi.isdigit()):
         return jsonify({
             "error": "Invalid NPI number — must be exactly 10 digits"
         }), 400
-    
+
     try:
-        verification_result = verify_hcp(npi)
+        verification_result = verify_hcp(npi=npi, name=name)
         report = generate_report(verification_result)
         return jsonify(report)
     except Exception as e:
