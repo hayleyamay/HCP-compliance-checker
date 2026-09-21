@@ -45,6 +45,8 @@ def verify():
         report = generate_report(verification_result)
         return jsonify(report)
     except Exception as e:
+        import traceback
+        traceback.print_exc()
         return jsonify({
             "error": "Verification failed",
             "message": str(e)
